@@ -1,0 +1,392 @@
+{
+  "stores": {
+    "louis": {
+      "categories": [
+        {
+          "icon": "spr_ui_customization_icon_short_sleeved_tops",
+          "random_stock": [
+            {
+              "cosmetic": "back_gear_hunter_bow"
+            },
+            {
+              "cosmetic": "back_gear_hunter_cape"
+            },
+            {
+              "cosmetic": "back_gear_mini_wings"
+            },
+            {
+              "cosmetic": "back_gear_ornate_round_shield"
+            },
+            {
+              "cosmetic": "back_gear_ornate_shield"
+            },
+            {
+              "cosmetic": "back_gear_rogue_cape"
+            },
+            {
+              "cosmetic": "back_gear_sheathed_sword"
+            },
+            {
+              "cosmetic": "dress_court"
+            },
+            {
+              "cosmetic": "dress_maid"
+            },
+            {
+              "cosmetic": "face_gear_hoop_earrings"
+            },
+            {
+              "cosmetic": "head_cap_basic"
+            },
+            {
+              "cosmetic": "head_cat_ears"
+            },
+            {
+              "cosmetic": "head_crown"
+            },
+            {
+              "cosmetic": "head_dancer_flower"
+            },
+            {
+              "cosmetic": "head_devil_horns"
+            },
+            {
+              "cosmetic": "head_halo"
+            },
+            {
+              "cosmetic": "head_hunter_hat"
+            },
+            {
+              "cosmetic": "head_lily_pad"
+            },
+            {
+              "cosmetic": "head_paisley_bandana"
+            },
+            {
+              "cosmetic": "head_rogue_hood"
+            },
+            {
+              "cosmetic": "head_sprout_hat"
+            },
+            {
+              "cosmetic": "head_striped_bow"
+            },
+            {
+              "cosmetic": "head_striped_bucket_hat"
+            },
+            {
+              "cosmetic": "head_tangerine"
+            },
+            {
+              "cosmetic": "pants_hunter"
+            },
+            {
+              "cosmetic": "pants_rogue"
+            },
+            {
+              "cosmetic": "shoes_boots_hunter"
+            },
+            {
+              "cosmetic": "shoes_boots_rogue"
+            },
+            {
+              "cosmetic": "shoes_dressy_stockings"
+            },
+            {
+              "cosmetic": "shoes_sneakers_basic"
+            },
+            {
+              "cosmetic": "skirt_dancer"
+            },
+            {
+              "cosmetic": "skirt_long_scalloped"
+            },
+            {
+              "cosmetic": "skirt_pleated_short"
+            },
+            {
+              "cosmetic": "suit_court"
+            },
+            {
+              "cosmetic": "top_dancer"
+            },
+            {
+              "cosmetic": "top_hunter"
+            },
+            {
+              "cosmetic": "top_long_sleeve_striped"
+            },
+            {
+              "cosmetic": "top_rogue"
+            },
+            {
+              "cosmetic": "top_tanktop_buttons"
+            },
+            {
+              "cosmetic": "top_tee_oversized"
+            }
+          ],
+          "target_selections": 25
+        }
+      ]
+    }
+  },
+  "stores/louis": {
+    "categories": [
+      {
+        "icon": "spr_ui_customization_icon_short_sleeved_tops",
+        "random_stock": [
+          {
+            "cosmetic": "back_gear_hunter_bow"
+          },
+          {
+            "cosmetic": "back_gear_hunter_cape"
+          },
+          {
+            "cosmetic": "back_gear_mini_wings"
+          },
+          {
+            "cosmetic": "back_gear_ornate_round_shield"
+          },
+          {
+            "cosmetic": "back_gear_ornate_shield"
+          },
+          {
+            "cosmetic": "back_gear_rogue_cape"
+          },
+          {
+            "cosmetic": "back_gear_sheathed_sword"
+          },
+          {
+            "cosmetic": "dress_court"
+          },
+          {
+            "cosmetic": "dress_maid"
+          },
+          {
+            "cosmetic": "face_gear_hoop_earrings"
+          },
+          {
+            "cosmetic": "head_cap_basic"
+          },
+          {
+            "cosmetic": "head_cat_ears"
+          },
+          {
+            "cosmetic": "head_crown"
+          },
+          {
+            "cosmetic": "head_dancer_flower"
+          },
+          {
+            "cosmetic": "head_devil_horns"
+          },
+          {
+            "cosmetic": "head_halo"
+          },
+          {
+            "cosmetic": "head_hunter_hat"
+          },
+          {
+            "cosmetic": "head_lily_pad"
+          },
+          {
+            "cosmetic": "head_paisley_bandana"
+          },
+          {
+            "cosmetic": "head_rogue_hood"
+          },
+          {
+            "cosmetic": "head_sprout_hat"
+          },
+          {
+            "cosmetic": "head_striped_bow"
+          },
+          {
+            "cosmetic": "head_striped_bucket_hat"
+          },
+          {
+            "cosmetic": "head_tangerine"
+          },
+          {
+            "cosmetic": "pants_hunter"
+          },
+          {
+            "cosmetic": "pants_rogue"
+          },
+          {
+            "cosmetic": "shoes_boots_hunter"
+          },
+          {
+            "cosmetic": "shoes_boots_rogue"
+          },
+          {
+            "cosmetic": "shoes_dressy_stockings"
+          },
+          {
+            "cosmetic": "shoes_sneakers_basic"
+          },
+          {
+            "cosmetic": "skirt_dancer"
+          },
+          {
+            "cosmetic": "skirt_long_scalloped"
+          },
+          {
+            "cosmetic": "skirt_pleated_short"
+          },
+          {
+            "cosmetic": "suit_court"
+          },
+          {
+            "cosmetic": "top_dancer"
+          },
+          {
+            "cosmetic": "top_hunter"
+          },
+          {
+            "cosmetic": "top_long_sleeve_striped"
+          },
+          {
+            "cosmetic": "top_rogue"
+          },
+          {
+            "cosmetic": "top_tanktop_buttons"
+          },
+          {
+            "cosmetic": "top_tee_oversized"
+          }
+        ],
+        "target_selections": 25
+      }
+    ]
+  },
+  "stores/louis/categories": [
+    {
+      "icon": "spr_ui_customization_icon_short_sleeved_tops",
+      "random_stock": [
+        {
+          "cosmetic": "back_gear_hunter_bow"
+        },
+        {
+          "cosmetic": "back_gear_hunter_cape"
+        },
+        {
+          "cosmetic": "back_gear_mini_wings"
+        },
+        {
+          "cosmetic": "back_gear_ornate_round_shield"
+        },
+        {
+          "cosmetic": "back_gear_ornate_shield"
+        },
+        {
+          "cosmetic": "back_gear_rogue_cape"
+        },
+        {
+          "cosmetic": "back_gear_sheathed_sword"
+        },
+        {
+          "cosmetic": "dress_court"
+        },
+        {
+          "cosmetic": "dress_maid"
+        },
+        {
+          "cosmetic": "face_gear_hoop_earrings"
+        },
+        {
+          "cosmetic": "head_cap_basic"
+        },
+        {
+          "cosmetic": "head_cat_ears"
+        },
+        {
+          "cosmetic": "head_crown"
+        },
+        {
+          "cosmetic": "head_dancer_flower"
+        },
+        {
+          "cosmetic": "head_devil_horns"
+        },
+        {
+          "cosmetic": "head_halo"
+        },
+        {
+          "cosmetic": "head_hunter_hat"
+        },
+        {
+          "cosmetic": "head_lily_pad"
+        },
+        {
+          "cosmetic": "head_paisley_bandana"
+        },
+        {
+          "cosmetic": "head_rogue_hood"
+        },
+        {
+          "cosmetic": "head_sprout_hat"
+        },
+        {
+          "cosmetic": "head_striped_bow"
+        },
+        {
+          "cosmetic": "head_striped_bucket_hat"
+        },
+        {
+          "cosmetic": "head_tangerine"
+        },
+        {
+          "cosmetic": "pants_hunter"
+        },
+        {
+          "cosmetic": "pants_rogue"
+        },
+        {
+          "cosmetic": "shoes_boots_hunter"
+        },
+        {
+          "cosmetic": "shoes_boots_rogue"
+        },
+        {
+          "cosmetic": "shoes_dressy_stockings"
+        },
+        {
+          "cosmetic": "shoes_sneakers_basic"
+        },
+        {
+          "cosmetic": "skirt_dancer"
+        },
+        {
+          "cosmetic": "skirt_long_scalloped"
+        },
+        {
+          "cosmetic": "skirt_pleated_short"
+        },
+        {
+          "cosmetic": "suit_court"
+        },
+        {
+          "cosmetic": "top_dancer"
+        },
+        {
+          "cosmetic": "top_hunter"
+        },
+        {
+          "cosmetic": "top_long_sleeve_striped"
+        },
+        {
+          "cosmetic": "top_rogue"
+        },
+        {
+          "cosmetic": "top_tanktop_buttons"
+        },
+        {
+          "cosmetic": "top_tee_oversized"
+        }
+      ],
+      "target_selections": 25
+    }
+  ]
+}

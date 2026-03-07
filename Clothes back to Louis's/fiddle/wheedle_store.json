@@ -1,0 +1,100 @@
+{
+    "stores": {
+        "wheedle": {
+            "categories": [
+                {
+                    "constant_stock": [
+                        "fast_food",
+                        {
+                            "item": "bath_soap",
+                            "requirements": {
+                                "is_dating_someone": true
+                            }
+                        }
+                    ],
+                    "icon": "spr_ui_crafting_category_icon_misc"
+                },
+                {
+                    "constant_stock": [
+                        "fire_snake_oil",
+                        "ice_snake_oil",
+                        "poison_snake_oil"
+                    ],
+                    "icon": "spr_ui_store_category_icon_consumables"
+                },
+                {
+                    "constant_stock": [
+                        {
+                            "item": "animated_bird_fountain"
+                        },
+                        {
+                            "item": "animated_snow_globe"
+                        },
+                        {
+                            "item": "deluxe_icebox_blue"
+                        },
+                        {
+                            "item": "deluxe_icebox_green"
+                        },
+                        {
+                            "item": "deluxe_icebox_pink"
+                        },
+                        {
+                            "item": "deluxe_icebox_white"
+                        },
+                        {
+                            "item": "deluxe_icebox_yellow"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_aqua"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_black"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_blue"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_dark_brown"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_gold"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_gray"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_green"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_light_brown"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_orange"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_pink"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_purple"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_red"
+                        },
+                        {
+                            "item": "deluxe_storage_chest_white"
+                        },
+                        {
+                            "item": "teleportation_pad",
+                            "requirements": {
+                                "has_upper_floor": true
+                            }
+                        }
+                    ],
+                    "icon": "spr_ui_store_category_icon_furniture"
+                }
+            ],
+            "name": "stores/wheedle/name"
+        }
+    }
+}

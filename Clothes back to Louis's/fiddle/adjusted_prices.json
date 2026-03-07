@@ -1,0 +1,425 @@
+{
+  "player_assets": {
+    "back_gear_hunter_bow": {
+      "lut": "spr_player_back_gear_hunter_bow_lut",
+      "name": "player_assets/back_gear_hunter_bow/name",
+      "price_override": 500,
+      "ui_slot": "back",
+      "ui_sub_category": "back_gear_misc"
+    },
+    "back_gear_hunter_cape": {
+      "lut": "spr_player_back_gear_hunter_cape_lut",
+      "name": "player_assets/back_gear_hunter_cape/name",
+      "price_override": 500,
+      "ui_slot": "back",
+      "ui_sub_category": "capes"
+    },
+    "back_gear_mini_wings": {
+      "lut": "spr_player_back_gear_mini_wings_lut",
+      "name": "player_assets/back_gear_mini_wings/name",
+      "price_override": 3000,
+      "ui_slot": "back",
+      "ui_sub_category": "back_gear_misc"
+    },
+    "back_gear_ornate_round_shield": {
+      "lut": "spr_player_back_gear_ornate_shield_lut",
+      "name": "player_assets/back_gear_ornate_round_shield/name",
+      "price_override": 1000,
+      "ui_slot": "back",
+      "ui_sub_category": "back_gear_misc"
+    },
+    "back_gear_ornate_shield": {
+      "lut": "spr_player_back_gear_ornate_shield_lut",
+      "name": "player_assets/back_gear_ornate_shield/name",
+      "price_override": 1000,
+      "ui_slot": "back",
+      "ui_sub_category": "back_gear_misc"
+    },
+    "back_gear_rogue_cape": {
+      "lut": "spr_player_top_rogue_lut",
+      "name": "player_assets/back_gear_rogue_cape/name",
+      "price_override": 500,
+      "ui_slot": "back",
+      "ui_sub_category": "capes"
+    },
+    "back_gear_sheathed_sword": {
+      "lut": "spr_player_back_gear_sheathed_sword_lut",
+      "name": "player_assets/back_gear_sheathed_sword/name",
+      "price_override": 2000,
+      "ui_slot": "back",
+      "ui_sub_category": "back_gear_misc"
+    },
+    "dress_court": {
+      "lut": "spr_player_dress_court_lut",
+      "name": "player_assets/dress_court/name",
+      "price_override": 2000,
+      "ui_slot": "top",
+      "ui_sub_category": "dress"
+    },
+    "head_crown": {
+      "lut": "spr_player_head_crown_lut",
+      "name": "player_assets/head_crown/name",
+      "price_override": 1000,
+      "ui_slot": "head_gear",
+      "ui_sub_category": "crown"
+    },
+    "head_dancer_flower": {
+      "lut": "spr_player_head_dancer_flower_lut",
+      "name": "player_assets/head_dancer_flower/name",
+      "price_override": 500,
+      "ui_slot": "head_gear",
+      "ui_sub_category": "hair_accessory"
+    },
+    "head_halo": {
+      "lut": "spr_player_head_halo_lut",
+      "name": "player_assets/head_halo/name",
+      "price_override": 5000,
+      "ui_slot": "head_gear",
+      "ui_sub_category": "crown"
+    },
+    "head_hunter_hat": {
+      "lut": "spr_player_head_hunter_hat_lut",
+      "name": "player_assets/head_hunter_hat/name",
+      "price_override": 500,
+      "ui_slot": "head_gear",
+      "ui_sub_category": "hat"
+    },
+    "head_rogue_hood": {
+      "hide_hair": true,
+      "lut": "spr_player_top_rogue_lut",
+      "name": "player_assets/head_rogue_hood/name",
+      "price_override": 500,
+      "ui_slot": "head_gear",
+      "ui_sub_category": "head_gear_misc"
+    },
+    "pants_hunter": {
+      "lut": "spr_player_pants_hunter_lut",
+      "name": "player_assets/pants_hunter/name",
+      "price_override": 1000,
+      "ui_slot": "bottom",
+      "ui_sub_category": "pants"
+    },
+    "pants_rogue": {
+      "lut": "spr_player_top_rogue_lut",
+      "name": "player_assets/pants_rogue/name",
+      "price_override": 1000,
+      "ui_slot": "bottom",
+      "ui_sub_category": "pants"
+    },
+    "shoes_boots_hunter": {
+      "lut": "spr_player_shoes_boots_hunter_lut",
+      "name": "player_assets/shoes_boots_hunter/name",
+      "price_override": 500,
+      "ui_slot": "feet",
+      "ui_sub_category": "boots"
+    },
+    "shoes_boots_rogue": {
+      "lut": "spr_player_top_rogue_lut",
+      "name": "player_assets/shoes_boots_rogue/name",
+      "price_override": 500,
+      "ui_slot": "feet",
+      "ui_sub_category": "boots"
+    },
+    "skirt_dancer": {
+      "lut": "spr_player_skirt_dancer_lut",
+      "name": "player_assets/skirt_dancer/name",
+      "price_override": 1000,
+      "ui_slot": "bottom",
+      "ui_sub_category": "skirt"
+    },
+    "suit_court": {
+      "lut": "spr_player_suit_court_lut",
+      "name": "player_assets/suit_court/name",
+      "price_override": 2000,
+      "ui_slot": "top",
+      "ui_sub_category": "suit"
+    },
+    "top_dancer": {
+      "lut": "spr_player_top_dancer_lut",
+      "name": "player_assets/top_dancer/name",
+      "price_override": 1000,
+      "ui_slot": "top",
+      "ui_sub_category": "short_sleeve"
+    },
+    "top_hunter": {
+      "lut": "spr_player_top_hunter_lut",
+      "name": "player_assets/top_hunter/name",
+      "price_override": 1000,
+      "ui_slot": "top",
+      "ui_sub_category": "top_misc"
+    },
+    "top_rogue": {
+      "lut": "spr_player_top_rogue_lut",
+      "name": "player_assets/top_rogue/name",
+      "price_override": 1000,
+      "ui_slot": "top",
+      "ui_sub_category": "long_sleeve"
+    }
+  },
+  "player_assets/back_gear_hunter_bow": {
+    "lut": "spr_player_back_gear_hunter_bow_lut",
+    "name": "player_assets/back_gear_hunter_bow/name",
+    "price_override": 500,
+    "ui_slot": "back",
+    "ui_sub_category": "back_gear_misc"
+  },
+  "player_assets/back_gear_hunter_bow/lut": "spr_player_back_gear_hunter_bow_lut",
+  "player_assets/back_gear_hunter_bow/name": "player_assets/back_gear_hunter_bow/name",
+  "player_assets/back_gear_hunter_bow/price_override": 500,
+  "player_assets/back_gear_hunter_bow/ui_slot": "back",
+  "player_assets/back_gear_hunter_bow/ui_sub_category": "back_gear_misc",
+  "player_assets/back_gear_hunter_cape": {
+    "lut": "spr_player_back_gear_hunter_cape_lut",
+    "name": "player_assets/back_gear_hunter_cape/name",
+    "price_override": 500,
+    "ui_slot": "back",
+    "ui_sub_category": "capes"
+  },
+  "player_assets/back_gear_hunter_cape/lut": "spr_player_back_gear_hunter_cape_lut",
+  "player_assets/back_gear_hunter_cape/name": "player_assets/back_gear_hunter_cape/name",
+  "player_assets/back_gear_hunter_cape/price_override": 500,
+  "player_assets/back_gear_hunter_cape/ui_slot": "back",
+  "player_assets/back_gear_hunter_cape/ui_sub_category": "capes",
+  "player_assets/back_gear_mini_wings": {
+    "lut": "spr_player_back_gear_mini_wings_lut",
+    "name": "player_assets/back_gear_mini_wings/name",
+    "price_override": 3000,
+    "ui_slot": "back",
+    "ui_sub_category": "back_gear_misc"
+  },
+  "player_assets/back_gear_mini_wings/lut": "spr_player_back_gear_mini_wings_lut",
+  "player_assets/back_gear_mini_wings/name": "player_assets/back_gear_mini_wings/name",
+  "player_assets/back_gear_mini_wings/price_override": 3000,
+  "player_assets/back_gear_mini_wings/ui_slot": "back",
+  "player_assets/back_gear_mini_wings/ui_sub_category": "back_gear_misc",
+  "player_assets/back_gear_ornate_round_shield": {
+    "lut": "spr_player_back_gear_ornate_shield_lut",
+    "name": "player_assets/back_gear_ornate_round_shield/name",
+    "price_override": 1000,
+    "ui_slot": "back",
+    "ui_sub_category": "back_gear_misc"
+  },
+  "player_assets/back_gear_ornate_round_shield/lut": "spr_player_back_gear_ornate_shield_lut",
+  "player_assets/back_gear_ornate_round_shield/name": "player_assets/back_gear_ornate_round_shield/name",
+  "player_assets/back_gear_ornate_round_shield/price_override": 1000,
+  "player_assets/back_gear_ornate_round_shield/ui_slot": "back",
+  "player_assets/back_gear_ornate_round_shield/ui_sub_category": "back_gear_misc",
+  "player_assets/back_gear_ornate_shield": {
+    "lut": "spr_player_back_gear_ornate_shield_lut",
+    "name": "player_assets/back_gear_ornate_shield/name",
+    "price_override": 1000,
+    "ui_slot": "back",
+    "ui_sub_category": "back_gear_misc"
+  },
+  "player_assets/back_gear_ornate_shield/lut": "spr_player_back_gear_ornate_shield_lut",
+  "player_assets/back_gear_ornate_shield/name": "player_assets/back_gear_ornate_shield/name",
+  "player_assets/back_gear_ornate_shield/price_override": 1000,
+  "player_assets/back_gear_ornate_shield/ui_slot": "back",
+  "player_assets/back_gear_ornate_shield/ui_sub_category": "back_gear_misc",
+  "player_assets/back_gear_rogue_cape": {
+    "lut": "spr_player_top_rogue_lut",
+    "name": "player_assets/back_gear_rogue_cape/name",
+    "price_override": 500,
+    "ui_slot": "back",
+    "ui_sub_category": "capes"
+  },
+  "player_assets/back_gear_rogue_cape/lut": "spr_player_top_rogue_lut",
+  "player_assets/back_gear_rogue_cape/name": "player_assets/back_gear_rogue_cape/name",
+  "player_assets/back_gear_rogue_cape/price_override": 500,
+  "player_assets/back_gear_rogue_cape/ui_slot": "back",
+  "player_assets/back_gear_rogue_cape/ui_sub_category": "capes",
+  "player_assets/back_gear_sheathed_sword": {
+    "lut": "spr_player_back_gear_sheathed_sword_lut",
+    "name": "player_assets/back_gear_sheathed_sword/name",
+    "price_override": 2000,
+    "ui_slot": "back",
+    "ui_sub_category": "back_gear_misc"
+  },
+  "player_assets/back_gear_sheathed_sword/lut": "spr_player_back_gear_sheathed_sword_lut",
+  "player_assets/back_gear_sheathed_sword/name": "player_assets/back_gear_sheathed_sword/name",
+  "player_assets/back_gear_sheathed_sword/price_override": 2000,
+  "player_assets/back_gear_sheathed_sword/ui_slot": "back",
+  "player_assets/back_gear_sheathed_sword/ui_sub_category": "back_gear_misc",
+  "player_assets/dress_court": {
+    "lut": "spr_player_dress_court_lut",
+    "name": "player_assets/dress_court/name",
+    "price_override": 2000,
+    "ui_slot": "top",
+    "ui_sub_category": "dress"
+  },
+  "player_assets/dress_court/lut": "spr_player_dress_court_lut",
+  "player_assets/dress_court/name": "player_assets/dress_court/name",
+  "player_assets/dress_court/price_override": 2000,
+  "player_assets/dress_court/ui_slot": "top",
+  "player_assets/dress_court/ui_sub_category": "dress",
+  "player_assets/head_crown": {
+    "lut": "spr_player_head_crown_lut",
+    "name": "player_assets/head_crown/name",
+    "price_override": 1000,
+    "ui_slot": "head_gear",
+    "ui_sub_category": "crown"
+  },
+  "player_assets/head_crown/lut": "spr_player_head_crown_lut",
+  "player_assets/head_crown/name": "player_assets/head_crown/name",
+  "player_assets/head_crown/price_override": 1000,
+  "player_assets/head_crown/ui_slot": "head_gear",
+  "player_assets/head_crown/ui_sub_category": "crown",
+  "player_assets/head_dancer_flower": {
+    "lut": "spr_player_head_dancer_flower_lut",
+    "name": "player_assets/head_dancer_flower/name",
+    "price_override": 500,
+    "ui_slot": "head_gear",
+    "ui_sub_category": "hair_accessory"
+  },
+  "player_assets/head_dancer_flower/lut": "spr_player_head_dancer_flower_lut",
+  "player_assets/head_dancer_flower/name": "player_assets/head_dancer_flower/name",
+  "player_assets/head_dancer_flower/price_override": 500,
+  "player_assets/head_dancer_flower/ui_slot": "head_gear",
+  "player_assets/head_dancer_flower/ui_sub_category": "hair_accessory",
+  "player_assets/head_halo": {
+    "lut": "spr_player_head_halo_lut",
+    "name": "player_assets/head_halo/name",
+    "price_override": 5000,
+    "ui_slot": "head_gear",
+    "ui_sub_category": "crown"
+  },
+  "player_assets/head_halo/lut": "spr_player_head_halo_lut",
+  "player_assets/head_halo/name": "player_assets/head_halo/name",
+  "player_assets/head_halo/price_override": 5000,
+  "player_assets/head_halo/ui_slot": "head_gear",
+  "player_assets/head_halo/ui_sub_category": "crown",
+  "player_assets/head_hunter_hat": {
+    "lut": "spr_player_head_hunter_hat_lut",
+    "name": "player_assets/head_hunter_hat/name",
+    "price_override": 500,
+    "ui_slot": "head_gear",
+    "ui_sub_category": "hat"
+  },
+  "player_assets/head_hunter_hat/lut": "spr_player_head_hunter_hat_lut",
+  "player_assets/head_hunter_hat/name": "player_assets/head_hunter_hat/name",
+  "player_assets/head_hunter_hat/price_override": 500,
+  "player_assets/head_hunter_hat/ui_slot": "head_gear",
+  "player_assets/head_hunter_hat/ui_sub_category": "hat",
+  "player_assets/head_rogue_hood": {
+    "hide_hair": true,
+    "lut": "spr_player_top_rogue_lut",
+    "name": "player_assets/head_rogue_hood/name",
+    "price_override": 500,
+    "ui_slot": "head_gear",
+    "ui_sub_category": "head_gear_misc"
+  },
+  "player_assets/head_rogue_hood/hide_hair": true,
+  "player_assets/head_rogue_hood/lut": "spr_player_top_rogue_lut",
+  "player_assets/head_rogue_hood/name": "player_assets/head_rogue_hood/name",
+  "player_assets/head_rogue_hood/price_override": 500,
+  "player_assets/head_rogue_hood/ui_slot": "head_gear",
+  "player_assets/head_rogue_hood/ui_sub_category": "head_gear_misc",
+  "player_assets/pants_hunter": {
+    "lut": "spr_player_pants_hunter_lut",
+    "name": "player_assets/pants_hunter/name",
+    "price_override": 1000,
+    "ui_slot": "bottom",
+    "ui_sub_category": "pants"
+  },
+  "player_assets/pants_hunter/lut": "spr_player_pants_hunter_lut",
+  "player_assets/pants_hunter/name": "player_assets/pants_hunter/name",
+  "player_assets/pants_hunter/price_override": 1000,
+  "player_assets/pants_hunter/ui_slot": "bottom",
+  "player_assets/pants_hunter/ui_sub_category": "pants",
+  "player_assets/pants_rogue": {
+    "lut": "spr_player_top_rogue_lut",
+    "name": "player_assets/pants_rogue/name",
+    "price_override": 1000,
+    "ui_slot": "bottom",
+    "ui_sub_category": "pants"
+  },
+  "player_assets/pants_rogue/lut": "spr_player_top_rogue_lut",
+  "player_assets/pants_rogue/name": "player_assets/pants_rogue/name",
+  "player_assets/pants_rogue/price_override": 1000,
+  "player_assets/pants_rogue/ui_slot": "bottom",
+  "player_assets/pants_rogue/ui_sub_category": "pants",
+  "player_assets/shoes_boots_hunter": {
+    "lut": "spr_player_shoes_boots_hunter_lut",
+    "name": "player_assets/shoes_boots_hunter/name",
+    "price_override": 500,
+    "ui_slot": "feet",
+    "ui_sub_category": "boots"
+  },
+  "player_assets/shoes_boots_hunter/lut": "spr_player_shoes_boots_hunter_lut",
+  "player_assets/shoes_boots_hunter/name": "player_assets/shoes_boots_hunter/name",
+  "player_assets/shoes_boots_hunter/price_override": 500,
+  "player_assets/shoes_boots_hunter/ui_slot": "feet",
+  "player_assets/shoes_boots_hunter/ui_sub_category": "boots",
+  "player_assets/shoes_boots_rogue": {
+    "lut": "spr_player_top_rogue_lut",
+    "name": "player_assets/shoes_boots_rogue/name",
+    "price_override": 500,
+    "ui_slot": "feet",
+    "ui_sub_category": "boots"
+  },
+  "player_assets/shoes_boots_rogue/lut": "spr_player_top_rogue_lut",
+  "player_assets/shoes_boots_rogue/name": "player_assets/shoes_boots_rogue/name",
+  "player_assets/shoes_boots_rogue/price_override": 500,
+  "player_assets/shoes_boots_rogue/ui_slot": "feet",
+  "player_assets/shoes_boots_rogue/ui_sub_category": "boots",
+  "player_assets/skirt_dancer": {
+    "lut": "spr_player_skirt_dancer_lut",
+    "name": "player_assets/skirt_dancer/name",
+    "price_override": 1000,
+    "ui_slot": "bottom",
+    "ui_sub_category": "skirt"
+  },
+  "player_assets/skirt_dancer/lut": "spr_player_skirt_dancer_lut",
+  "player_assets/skirt_dancer/name": "player_assets/skirt_dancer/name",
+  "player_assets/skirt_dancer/price_override": 1000,
+  "player_assets/skirt_dancer/ui_slot": "bottom",
+  "player_assets/skirt_dancer/ui_sub_category": "skirt",
+  "player_assets/suit_court": {
+    "lut": "spr_player_suit_court_lut",
+    "name": "player_assets/suit_court/name",
+    "price_override": 2000,
+    "ui_slot": "top",
+    "ui_sub_category": "suit"
+  },
+  "player_assets/suit_court/lut": "spr_player_suit_court_lut",
+  "player_assets/suit_court/name": "player_assets/suit_court/name",
+  "player_assets/suit_court/price_override": 2000,
+  "player_assets/suit_court/ui_slot": "top",
+  "player_assets/suit_court/ui_sub_category": "suit",
+  "player_assets/top_dancer": {
+    "lut": "spr_player_top_dancer_lut",
+    "name": "player_assets/top_dancer/name",
+    "price_override": 1000,
+    "ui_slot": "top",
+    "ui_sub_category": "short_sleeve"
+  },
+  "player_assets/top_dancer/lut": "spr_player_top_dancer_lut",
+  "player_assets/top_dancer/name": "player_assets/top_dancer/name",
+  "player_assets/top_dancer/price_override": 1000,
+  "player_assets/top_dancer/ui_slot": "top",
+  "player_assets/top_dancer/ui_sub_category": "short_sleeve",
+  "player_assets/top_hunter": {
+    "lut": "spr_player_top_hunter_lut",
+    "name": "player_assets/top_hunter/name",
+    "price_override": 1000,
+    "ui_slot": "top",
+    "ui_sub_category": "top_misc"
+  },
+  "player_assets/top_hunter/lut": "spr_player_top_hunter_lut",
+  "player_assets/top_hunter/name": "player_assets/top_hunter/name",
+  "player_assets/top_hunter/price_override": 1000,
+  "player_assets/top_hunter/ui_slot": "top",
+  "player_assets/top_hunter/ui_sub_category": "top_misc",
+  "player_assets/top_rogue": {
+    "lut": "spr_player_top_rogue_lut",
+    "name": "player_assets/top_rogue/name",
+    "price_override": 1000,
+    "ui_slot": "top",
+    "ui_sub_category": "long_sleeve"
+  },
+  "player_assets/top_rogue/lut": "spr_player_top_rogue_lut",
+  "player_assets/top_rogue/name": "player_assets/top_rogue/name",
+  "player_assets/top_rogue/price_override": 1000,
+  "player_assets/top_rogue/ui_slot": "top",
+  "player_assets/top_rogue/ui_sub_category": "long_sleeve"
+}
