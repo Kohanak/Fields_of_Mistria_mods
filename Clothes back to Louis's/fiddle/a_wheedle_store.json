@@ -1,0 +1,11 @@
+{
+    "stores": {
+        "wheedle": {
+            "categories": null
+        }
+    },
+    "stores/wheedle": {
+        "categories": null
+    },
+    "stores/wheedle/categories": null
+}
