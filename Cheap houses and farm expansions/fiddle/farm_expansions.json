@@ -1,0 +1,62 @@
+{
+    "misc": {
+        "farm_data": {
+            "expansion_cost": {
+                "gold": 1,
+                "items": [
+                    {
+                        "count": 1,
+                        "item_id": "hard_wood"
+                    },
+                    {
+                        "count": 1,
+                        "item_id": "refined_stone"
+                    }
+                ],
+                "preview": "spr_ui_store_farm_expansion_preview"
+            }
+        }
+    },
+    "misc/farm_data": {
+        "expansion_cost": {
+            "gold": 1,
+            "items": [
+                {
+                    "count": 1,
+                    "item_id": "hard_wood"
+                },
+                {
+                    "count": 1,
+                    "item_id": "refined_stone"
+                }
+            ],
+            "preview": "spr_ui_store_farm_expansion_preview"
+        }
+    },
+    "misc/farm_data/expansion_cost": {
+        "gold": 1,
+        "items": [
+            {
+                "count": 1,
+                "item_id": "hard_wood"
+            },
+            {
+                "count": 1,
+                "item_id": "refined_stone"
+            }
+        ],
+        "preview": "spr_ui_store_farm_expansion_preview"
+    },
+    "misc/farm_data/expansion_cost/gold": 1,
+    "misc/farm_data/expansion_cost/items": [
+        {
+            "count": 1,
+            "item_id": "hard_wood"
+        },
+        {
+            "count": 1,
+            "item_id": "refined_stone"
+        }
+    ],
+    "misc/farm_data/expansion_cost/preview": "spr_ui_store_farm_expansion_preview"
+}
