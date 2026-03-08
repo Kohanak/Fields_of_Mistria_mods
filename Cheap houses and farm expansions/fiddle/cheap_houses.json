@@ -1,0 +1,213 @@
+{
+    "player_home": {
+        "upgrades": {
+            "large_gold": 1,
+            "large_items": [
+                {
+                    "item_id": "basic_wood",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "ore_stone",
+                    "quantity": 1
+                }
+            ],
+            "large_west_east_gold": 1,
+            "large_west_east_items": [
+                {
+                    "item_id": "basic_wood",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "ore_stone",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "silver_ingot",
+                    "quantity": 1
+                }
+            ],
+            "large_west_east_north_gold": 1,
+            "large_west_east_north_items": [
+                {
+                    "item_id": "basic_wood",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "ore_stone",
+                    "quantity": 1
+                }
+            ],
+            "large_west_gold": 1,
+            "large_west_items": [
+                {
+                    "item_id": "basic_wood",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "iron_ingot",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "ore_stone",
+                    "quantity": 1
+                }
+            ]
+        },
+        "upper_floor_sell_data": {
+            "gold": 1,
+            "items": [
+                {
+                    "item_id": "gold_ingot",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "hard_wood",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "refined_stone",
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    "player_home/upgrades": {
+        "large_gold": 1,
+        "large_items": [
+            {
+                "item_id": "basic_wood",
+                "quantity": 1
+            },
+            {
+                "item_id": "ore_stone",
+                "quantity": 1
+            }
+        ],
+        "large_west_east_gold": 1,
+        "large_west_east_items": [
+            {
+                "item_id": "basic_wood",
+                "quantity": 1
+            },
+            {
+                "item_id": "ore_stone",
+                "quantity": 1
+            },
+            {
+                "item_id": "silver_ingot",
+                "quantity": 1
+            }
+        ],
+        "large_west_east_north_gold": 1,
+        "large_west_east_north_items": [
+            {
+                "item_id": "basic_wood",
+                "quantity": 1
+            },
+            {
+                "item_id": "ore_stone",
+                "quantity": 1
+            }
+        ],
+        "large_west_gold": 1,
+        "large_west_items": [
+            {
+                "item_id": "basic_wood",
+                "quantity": 1
+            },
+            {
+                "item_id": "iron_ingot",
+                "quantity": 1
+            },
+            {
+                "item_id": "ore_stone",
+                "quantity": 1
+            }
+        ]
+    },
+    "player_home/upgrades/large_gold": 1,
+    "player_home/upgrades/large_items": [
+        {
+            "item_id": "basic_wood",
+            "quantity": 1
+        },
+        {
+            "item_id": "ore_stone",
+            "quantity": 1
+        }
+    ],
+    "player_home/upgrades/large_west_east_gold": 1,
+    "player_home/upgrades/large_west_east_items": [
+        {
+            "item_id": "basic_wood",
+            "quantity": 1
+        },
+        {
+            "item_id": "ore_stone",
+            "quantity": 1
+        },
+        {
+            "item_id": "silver_ingot",
+            "quantity": 1
+        }
+    ],
+    "player_home/upgrades/large_west_east_north_gold": 1,
+    "player_home/upgrades/large_west_east_north_items": [
+        {
+            "item_id": "basic_wood",
+            "quantity": 1
+        },
+        {
+            "item_id": "ore_stone",
+            "quantity": 1
+        }
+    ],
+    "player_home/upgrades/large_west_gold": 1,
+    "player_home/upgrades/large_west_items": [
+        {
+            "item_id": "basic_wood",
+            "quantity": 1
+        },
+        {
+            "item_id": "iron_ingot",
+            "quantity": 1
+        },
+        {
+            "item_id": "ore_stone",
+            "quantity": 1
+        }
+    ],
+    "player_home/upper_floor_sell_data": {
+        "gold": 1,
+        "items": [
+            {
+                "item_id": "gold_ingot",
+                "quantity": 1
+            },
+            {
+                "item_id": "hard_wood",
+                "quantity": 1
+            },
+            {
+                "item_id": "refined_stone",
+                "quantity": 1
+            }
+        ]
+    },
+    "player_home/upper_floor_sell_data/gold": 1,
+    "player_home/upper_floor_sell_data/items": [
+        {
+            "item_id": "gold_ingot",
+            "quantity": 1
+        },
+        {
+            "item_id": "hard_wood",
+            "quantity": 1
+        },
+        {
+            "item_id": "refined_stone",
+            "quantity": 1
+        }
+    ]
+}
