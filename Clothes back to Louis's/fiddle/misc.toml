@@ -1,0 +1,6 @@
+[farm_data.expansion_cost]
+		gold = 1
+		items = [
+			{ item_id = "refined_stone", count = 1 },
+			{ item_id = "hard_wood", count = 1 },
+		]
