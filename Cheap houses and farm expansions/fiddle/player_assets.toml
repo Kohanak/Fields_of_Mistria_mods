@@ -1,0 +1,65 @@
+[back_gear_hunter_bow]
+    price_override = 500
+
+[back_gear_hunter_cape]
+    price_override = 500
+
+[back_gear_mini_wings]
+    price_override = 3000
+
+[back_gear_ornate_round_shield]
+    price_override = 1000
+
+[back_gear_ornate_shield]
+    price_override = 1000
+
+[back_gear_rogue_cape]
+    price_override = 500
+
+[back_gear_sheathed_sword]
+    price_override = 2000
+
+[dress_court]
+    price_override = 2000
+
+[head_crown]
+    price_override = 1000
+
+[head_dancer_flower]
+    price_override = 500
+
+[head_halo]
+    price_override = 5000
+
+[head_hunter_hat]
+    price_override = 500
+
+[head_rogue_hood]
+    price_override = 500
+
+[pants_hunter]
+    price_override = 1000
+
+[pants_rogue]
+    price_override = 1000
+
+[shoes_boots_hunter]
+    price_override = 500
+
+[shoes_boots_rogue]
+    price_override = 500
+
+[skirt_dancer]
+    price_override = 1000
+
+[suit_court]
+    price_override = 2000
+
+[top_dancer]
+    price_override = 1000
+
+[top_hunter]
+    price_override = 1000
+
+[top_rogue]
+    price_override = 1000

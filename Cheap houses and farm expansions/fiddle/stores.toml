@@ -1,0 +1,58 @@
+[louis]
+[[louis.categories]]
+	MOMIidentify = {icon = "spr_ui_customization_icon_short_sleeved_tops"}
+	target_selections = 25
+	MOMIaction = "merge"
+	random_stock = [
+		{ cosmetic = "back_gear_hunter_bow" },
+		{ cosmetic = "back_gear_hunter_cape" },
+		{ cosmetic = "back_gear_mini_wings" },
+		{ cosmetic = "back_gear_ornate_round_shield" },
+		{ cosmetic = "back_gear_ornate_shield" },
+		{ cosmetic = "back_gear_rogue_cape" },
+		{ cosmetic = "back_gear_sheathed_sword" },
+		{ cosmetic = "dress_court" },
+		{ cosmetic = "head_crown" },
+		{ cosmetic = "head_dancer_flower" },
+		{ cosmetic = "head_halo" },
+		{ cosmetic = "head_hunter_hat" },
+		{ cosmetic = "head_rogue_hood" },
+		{ cosmetic = "pants_hunter" },
+		{ cosmetic = "pants_rogue" },
+		{ cosmetic = "shoes_boots_hunter" },
+		{ cosmetic = "shoes_boots_rogue" },
+		{ cosmetic = "skirt_dancer" },
+		{ cosmetic = "suit_court" },
+		{ cosmetic = "top_dancer" },
+		{ cosmetic = "top_hunter" },
+		{ cosmetic = "top_rogue" },
+	]
+
+[wheedle]
+[[wheedle.categories]]
+    MOMIidentify = {icon = "spr_ui_store_category_icon_player_cosmetics"}
+	MOMIaction = "merge"
+    MOMIremove = {random_stock = [
+            { cosmetic = "head_crown" },
+            { cosmetic = "back_gear_sheathed_sword" },
+            { cosmetic = "back_gear_mini_wings" },
+            { cosmetic = "back_gear_ornate_round_shield" },
+            { cosmetic = "back_gear_ornate_shield" },
+            { cosmetic = "suit_court" },
+            { cosmetic = "dress_court" },
+            { cosmetic = "head_dancer_flower" },
+            { cosmetic = "top_dancer" },
+            { cosmetic = "skirt_dancer" },
+            { cosmetic = "back_gear_rogue_cape" },
+            { cosmetic = "head_rogue_hood" },
+            { cosmetic = "pants_rogue" },
+            { cosmetic = "shoes_boots_rogue" },
+            { cosmetic = "top_rogue" },
+            { cosmetic = "back_gear_hunter_bow" },
+            { cosmetic = "back_gear_hunter_cape" },
+            { cosmetic = "head_hunter_hat" },
+            { cosmetic = "pants_hunter" },
+            { cosmetic = "shoes_boots_hunter" },
+            { cosmetic = "top_hunter" },
+            { cosmetic = "head_halo" },
+        ]}
