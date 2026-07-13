@@ -1,0 +1,31 @@
+[repair_the_mill]
+	requirements = { completed_quest = { quest = "replenishing_mistrias_food_reserves_1", days_after = 1 } }
+
+[replenishing_mistrias_food_reserves_1]
+	requirements = { completed_quest = { quest = "repair_the_bridge", days_after = 1 } }
+
+[repair_the_general_store]
+	requirements = { completed_quest = { quest = "repair_the_summit_stairs", days_after = 1 } }
+
+[repair_the_summit_stairs]
+	requirements = { completed_quest = { quest = "repair_the_mill", days_after = 1 } }
+
+[repair_haydens_barn]
+	requirements = { completed_quest = { quest = "replenishing_mistrias_food_reserves_2", days_after = 1 } }
+
+[replenishing_mistrias_food_reserves_2]
+	requirements = { completed_quest = { quest = "repair_the_beach_bridge", days_after = 1 } }
+
+[repair_the_beach_bridge]
+	requirements = { completed_quest = { quest = "repair_the_general_store", days_after = 1 } }
+
+[repair_the_inn]
+	requirements = { completed_quest = { quest = "repair_haydens_barn", days_after = 1 } }
+
+[procuring_the_sealing_scroll]
+	[procuring_the_sealing_scroll.requirements]
+		completed_quest = { quest = "the_fire_tablet", days_after = 1 }
+
+[stone_refinery]
+	[stone_refinery.requirements]
+		completed_quest = { quest = "repair_the_inn", days_after = 1 }
