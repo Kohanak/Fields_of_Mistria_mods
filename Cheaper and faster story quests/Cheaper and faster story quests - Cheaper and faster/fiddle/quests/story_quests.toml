@@ -1,0 +1,81 @@
+[repair_the_mill]
+	[[repair_the_mill.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box outside of the Mill, then bring 1000 tesserae to Adeline."}
+		[repair_the_mill.stages.requirements]
+			has_gold = 1
+			supplied_items.items = { ore_stone = 1, basic_wood = 1, copper_ingot = 1 }
+
+[repair_the_bridge]
+	[[repair_the_bridge.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box next to the bridge, then talk to Adeline."}
+		requirements.supplied_items.items = { ore_stone = 1, basic_wood = 1 }
+
+[procuring_the_sealing_scroll]
+	[[procuring_the_sealing_scroll.stages]]
+		MOMIidentify = {objective_description = "Deposit the required items into the chest next to Balor's wagon, then talk to Balor."}
+		requirements.supplied_items.items = { silver_ingot = 1, ore_ruby = 1, ore_sapphire = 1, ore_emerald = 1 }
+
+[replenishing_mistrias_food_reserves_1]
+	[[replenishing_mistrias_food_reserves_1.stages]]
+		MOMIidentify = {objective_description = "Ship 10 crops and then speak to Adeline."}
+		requirements = { shipped_tag = { crop = 1 } }
+
+[repair_the_general_store]
+	[[repair_the_general_store.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box outside of the outside the General Store, then bring Adeline 3000 tesserae."}
+		[repair_the_general_store.stages.requirements]
+			has_gold = 1
+			supplied_items.items = { ore_stone = 1, basic_wood = 1, copper_ingot = 1, iron_ingot = 1 }
+
+[repair_haydens_barn]
+	[[repair_haydens_barn.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box outside of Hayden's barn, then bring 4000 tesserae to Adeline."}
+		[repair_haydens_barn.stages.requirements]
+			has_gold = 1
+			supplied_items.items = { ore_stone = 1, basic_wood = 1, iron_ingot = 1 }
+
+[replenishing_mistrias_food_reserves_2]
+	[[replenishing_mistrias_food_reserves_2.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box outside of the Inn, then talk to Adeline."}
+		requirements.supplied_items.items = { cheese = 1, egg = 1 }
+
+[repair_the_beach_bridge]
+	[[repair_the_beach_bridge.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box near Terithia's house, then bring 1000 tesserae to Terithia."}
+		[repair_the_beach_bridge.stages.requirements]
+			has_gold = 1
+			supplied_items.items = { ore_stone = 1, basic_wood = 1, fiber = 1 }
+
+[repair_the_inn]
+	[[repair_the_inn.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box outside of the Inn, then bring 6000 tesserae to Adeline."}
+		[repair_the_inn.stages.requirements]
+			has_gold = 1
+			supplied_items.items = { ore_stone = 1, basic_wood = 1, silver_ingot = 1, glass = 1, peat = 1 }
+
+[stone_refinery]
+	[[stone_refinery.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box outside of the Mines, then bring 5000 tesserae to Adeline."}
+		[stone_refinery.stages.requirements]
+			has_gold = 1
+			supplied_items.items = { ore_stone = 1, basic_wood = 1, sap = 1 }
+
+[upgrade_the_saturday_market]
+	[[upgrade_the_saturday_market.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box outside of the Manor House, then talk to Adeline."}
+		requirements.supplied_items.items = { gold_ingot = 1, obsidian = 1, crystal = 1, hard_wood = 1, refined_stone = 1 }
+
+[upgrade_the_carpenters_shop]
+	[[upgrade_the_carpenters_shop.stages]]
+		MOMIidentify = {objective_description = "Deposit the required materials in the Donation Box outside of the Carpenter's Shop, then talk to Adeline."}
+		requirements.supplied_items.items = { glass = 1, refined_stone = 1, crystal = 1, obsidian = 1 }
+
+[apiaries_and_terrariums]
+	[[apiaries_and_terrariums.stages]]
+		MOMIidentify = {objective_description = "Ship 20 Bugs and then speak to Adeline."}
+		requirements = { shipped_tag = { bugs = 1 } }
+
+[creating_the_void_mass]
+	[[creating_the_void_mass.stages]]
+		MOMIidentify = {objective_description = "Offer the required items to the Cauldron in the Void Seal room."}
+		requirements.supplied_items.items = { void_stone = 1, void_powder = 1, void_herb = 1, void_pearl = 1 }
