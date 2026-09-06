@@ -1,0 +1,17 @@
+[breaking_the_ruins_seal_caldarus]
+    name = "Talk to Caldarus"
+    npc_for_icon = "caldarus"
+    test_target = "dragon_story"
+    description = """The priestess told me not to say anything to Caldarus, but I prefer to make that decision when I see him."""
+
+    [[breaking_the_ruins_seal_caldarus.stages]]
+        objective_description = "Talk to Caldarus"
+        queries = [
+            {npc = "caldarus", npc_conversation = "breaking_the_ruins_seal_caldarus_turn_in"}
+        ]
+
+[[the_dragonsworn_tablet.stages]]
+    MOMIidentify = { objective_description = "Reach 8 Hearts with Juniper & Eiland and view both 8-Heart events, then talk to Juniper." }
+    objective_description = "Talk to Juniper."
+    [the_dragonsworn_tablet.stages.requirements]
+        MOMIaction = "remove"

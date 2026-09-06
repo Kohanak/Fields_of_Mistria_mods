@@ -1,0 +1,120 @@
+scene(seridias_chamber);
+place_actor(seridia, south, crystal);
+set_on_blackboard("block_skip", true);
+
+//
+next_line(); //"The $Dragonsworn Tablet$ stands solemnly."
+next_line(); //"It looks blank, but you sense the words are merely hidden from sight."
+next_line(); //"Maybe the $Dragon Priestess$ knows how to reveal them...?"
+close_textbox();
+set_on_blackboard("block_skip", false);
+
+sim {
+	//
+	//
+	//
+	//
+	{
+		walk_slow(ari, dt2_ari_entrance);
+		face(ari, north);
+	}
+	{
+		pan_camera(3, dt2_camera_1);
+	}
+}
+free bark(seridia, question_mark);
+wait(1);
+free bark_speech(ari, ellipses);
+wait(2);
+next_line(); //"Ah, what did you say?"
+next_line(); //"The $Dragonsworn Tablet$ appears blank?"
+next_line(); //"Are you certain? I had thought that with $Void Sight$..."
+close_textbox();
+wait(1);
+animate(seridia, blink);
+wait(0.1);
+anim_speed(seridia, 0);
+wait(0.5);
+next_line(); //"..."
+close_textbox();
+wait(1);
+
+sim {
+	{
+		wait(0.5);
+		anim_speed(seridia, 1);
+		animate(seridia, idle);
+	}
+	{
+		next_line(); //"It seems that we have yet another puzzle to solve, Hero."
+	}
+}
+next_line(); //"Tell me... how were you able to progress through the other seal rooms before you could read $Witchspeak$?"
+//
+sim {
+	{
+		wait(0.75);
+		free bark(seridia, exclamation_mark);
+	}
+	{
+		next_line(); //"Your friends assisted you? Do go on..."
+	}
+}
+close_textbox();
+wait(0.5);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, mining);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, annoyed);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, eiland);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, archaeology);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, juniper);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, plant_tonic);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, book);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, cute_face);
+wait(1);
+next_line(); //"I see. So $Eiland$ is an expert when it comes to $History and Artifacts$."
+next_line(); //"And $Juniper$ knows something of both $Magic and Witchspeak$..."
+next_line(); //"It is possible that they may be able to help us solve the mystery of the $Dragonsworn Tablet$."
+next_line(); //"However, that would require telling them about... everything."
+next_line(); //"How well do you know these people, Hero? Can they be trusted?"
+//
+sim {
+	{
+		wait(0.75);
+		free bark(seridia, exclamation_mark);
+	}
+	{
+		next_line(); //"Is that so? Surely you understand that it is a risk to involve others in this situation..."
+	}
+}
+close_textbox();
+wait(1);
+free bark(seridia, ellipses);
+wait(2);
+next_line(); //"While I remain somewhat wary of the risk..."
+next_line(); //"Perhaps asking for their assistance would be for the best."
+next_line(); //"We must uncover the details of how to break $The Final Seal$ as soon as possible."
+close_textbox();
+wait(1.5);
+next_line(); //"The time has come to allow these friends of yours into the fold."
+next_line(); //"I recommend that you speak with $Juniper$ first, as she is more familiar with your situation."
+close_textbox();
+wait(0.5);
+free bark(seridia, cute_face);
+wait(1);
+bark_speech(ari, cute_face);
+pan_camera(2, dt2_ari_entrance);

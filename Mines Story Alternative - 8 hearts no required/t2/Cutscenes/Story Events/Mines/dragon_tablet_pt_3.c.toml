@@ -1,0 +1,128 @@
+[dragon_tablet_pt_3.13]
+speaker = "juniper"
+portrait = "think"
+local = "More than either of us, anyway."
+next = "18"
+
+[dragon_tablet_pt_3.14]
+MOMIaction = "remove"
+
+[dragon_tablet_pt_3.15]
+MOMIaction = "remove"
+
+[dragon_tablet_pt_3.16]
+MOMIaction = "remove"
+
+[dragon_tablet_pt_3.17]
+MOMIaction = "remove"
+
+[dragon_tablet_pt_3.61]
+speaker = "eiland"
+portrait = "neutral"
+local = "I mean, a reproduction."
+next = "62"
+
+[dragon_tablet_pt_3.62]
+speaker = "eiland"
+portrait = "happy"
+local = "I asked March to craft one based on all the information I gathered about the $Dragonsworn$."
+next = "63"
+
+[dragon_tablet_pt_3.63]
+speaker = "eiland"
+portrait = "neutral"
+local = "I think we should go and get it for you. By all rights, that armor is yours, [Ari]. It may turn out to be the missing piece of the puzzle."
+next = "64"
+
+[dragon_tablet_pt_3.76]
+speaker = "eiland"
+portrait = "happy"
+local = "Incredible... It's not even the original."
+next = "77"
+
+[dragon_tablet_pt_3.78]
+speaker = "juniper"
+portrait = "neutral"
+local = "It would make sense, wouldn't it? Everything is falling into place."
+next = "79alt"
+
+[dragon_tablet_pt_3.79]
+MOMIaction = "remove"
+
+[dragon_tablet_pt_3.79alt]
+no_speaker = true
+local = "To be honest, I wondered whether using modern armor was a good idea. Using something from the same era might have been a prerequisite."
+next = "80"
+
+[dragon_tablet_pt_3.80]
+speaker = "juniper"
+portrait = "neutral"
+local = "I see where you're coming from. But intention can matter too, or the mere presence of magic."
+next = "81"
+
+[dragon_tablet_pt_3.81]
+speaker = "juniper"
+portrait = "think"
+local = "Especially since March is an excellent enough craftsman to be touched by magic and able to infuse certain pieces."
+next = "82"
+
+[dragon_tablet_pt_3.82]
+speaker = "juniper"
+portrait = "neutral"
+local = "Although he refuses to admit it"
+next = "83alt"
+
+[dragon_tablet_pt_3.83]
+MOMIaction = "remove"
+
+[dragon_tablet_pt_3.83alt]
+no_speaker = true
+local = "Fair enough, but we're lucky the armor fits me perfectly."
+next = "84"
+
+[dragon_tablet_pt_3.84]
+speaker = "eiland"
+portrait = "happy"
+local = "Oh, that's because I asked him to. March asked for details, and I told him to base it on you. You're the only person here who goes down into the mines and fights monsters."
+next = "85"
+
+[dragon_tablet_pt_3.85]
+speaker = "juniper"
+portrait = "neutral"
+local = "It's just as I was saying, all the elements are converging."
+next = "86"
+
+[dragon_tablet_pt_3.86]
+speaker = "juniper"
+portrait = "think"
+local = "I bet only the true $Dragonsworn$ can read the $Dragonsworn Tablet$."
+next = "87"
+
+[dragon_tablet_pt_3.87]
+speaker = "juniper"
+portrait = "neutral"
+local = "And now you have the proof!"
+next = "88"
+
+[dragon_tablet_pt_3.88]
+speaker = "juniper"
+portrait = "think"
+local = "You certainly look the part, [Ari]."
+next = "89"
+
+[dragon_tablet_pt_3.89]
+speaker = "juniper"
+portrait = "neutral"
+local = "But will you really be able to read the $Tablet$ now?"
+next = "90"
+
+[dragon_tablet_pt_3.90]
+speaker = "eiland"
+portrait = "neutral"
+local = "I suppose there's only one way to find out."
+next = "91"
+
+[dragon_tablet_pt_3.91]
+speaker = "eiland"
+portrait = "happy"
+local = "You'd better go back down into the Ruins and see if you can read the $Dragonsworn Tablet$!"

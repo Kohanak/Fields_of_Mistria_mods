@@ -1,0 +1,66 @@
+[dragon_tablet_pt_2_follow_up_seridia_0]
+	MOMIaction = "remove"
+
+[dragon_tablet_pt_2_follow_up_seridia_1]
+	MOMIaction = "remove"
+
+[dragon_tablet_pt_2]
+	[dragon_tablet_pt_2.6]
+		local = "These two persons assisted you? Do go on..."
+		next = "7"
+		portrait = "neutral"
+		speaker = "seridia"
+
+	[dragon_tablet_pt_2.12]
+		local = "Is that so? Surely you understand that it is a risk to involve others in this situation..."
+		next = "15t"
+		portrait = "think"
+		speaker = "seridia"
+
+	[dragon_tablet_pt_2.13]
+		MOMIaction = "remove"
+
+		[[dragon_tablet_pt_2.13.next]]
+			MOMIaction = "remove"
+
+		[[dragon_tablet_pt_2.13.next]]
+			MOMIaction = "remove"
+
+		[[dragon_tablet_pt_2.13.next]]
+			MOMIaction = "remove"
+
+		[[dragon_tablet_pt_2.13.next]]
+			MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.14a]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.14b]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.14c]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.14d]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.14bc_extra]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.14d_extra]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.15f]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.16f]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.17f]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.18f]
+		MOMIaction = "remove"
+
+	[dragon_tablet_pt_2.19f]
+		MOMIaction = "remove"

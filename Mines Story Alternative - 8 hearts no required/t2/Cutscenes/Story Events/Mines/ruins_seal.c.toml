@@ -1,0 +1,18 @@
+[break_ruins_seal_pt_1.52]
+speaker = "seridia"
+portrait = "neutral"
+local = "^Let us protect him. He must stay safe until the $Final Seal$ is broken.^"
+next = "53"
+
+[break_ruins_seal_pt_1.53]
+no_speaker = true
+local = "(I understand what she means, but I don't know if saying nothing to Caldarus is the right thing to do. I should go see him and test the waters.)"
+
+[break_ruins_seal_pt_3_follow_up_caldarus.3]
+portrait = "think"
+local = "Perhaps I just need to rest."
+next = "4"
+
+[break_ruins_seal_pt_3_follow_up_caldarus.4]
+no_speaker = true
+local = "(I didn't even have time to say anything before he had already walked away. It's surely an effect of what happened in the mines.)"

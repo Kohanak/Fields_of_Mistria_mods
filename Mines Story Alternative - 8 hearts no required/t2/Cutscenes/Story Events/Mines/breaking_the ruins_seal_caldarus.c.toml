@@ -1,0 +1,607 @@
+[breaking_the_ruins_seal_caldarus_turn_in]
+    kind = "gameplay_triggered"
+    speaker = "caldarus"
+    portrait = "happy"
+    local = "[Ari]! How are you?"
+    next = "1"
+
+[breaking_the_ruins_seal_caldarus_turn_in.1]
+    speaker = "caldarus"
+    portrait = "happy"
+    local = "You look thoughtful. Am I mistaken?"
+    next = "2"
+
+[breaking_the_ruins_seal_caldarus_turn_in.2]
+    no_speaker = true
+    local = "Well, I'm always thinking about something, but I didn't realize it showed so much on my face."
+    next = [
+        { target = "3r", requires = [{ caldarus_is_dating = true }] },
+	    { target = "3f", requires = [{ caldarus_is_best_friend = true }] },
+        { target = "3", requires = [] }
+    ]
+
+[breaking_the_ruins_seal_caldarus_turn_in.3]
+    speaker = "caldarus"
+    portrait = "laugh"
+    local = "I used to watch the emotions on your face a lot when you were working on your farm."
+    next = "4"
+
+[breaking_the_ruins_seal_caldarus_turn_in.3r]
+    speaker = "caldarus"
+    portrait = "embarrassed"
+    local = "I pretty sure it is because I think about you a lot."
+    next = "4r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.3f]
+    speaker = "caldarus"
+    portrait = "happy"
+    local = "I do my best to be attentive to you."
+    next = "4f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.4]
+    speaker = "caldarus"
+    portrait = "happy"
+    local = "Sometimes, I found myself wanting to recreate them, to see if they would bring back memories. Then I would remember my situation as a statue."
+    next = "5"
+
+[breaking_the_ruins_seal_caldarus_turn_in.4r]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "I love recalling every one of your expressions. It makes me particularly happy."
+    next = "5r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.4f]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "It is important to me to nurture our friendship."
+    next = "5f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.5]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "..."
+    next = "6"
+
+[breaking_the_ruins_seal_caldarus_turn_in.5r]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "..."
+    next = "6r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.5f]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "..."
+    next = "6f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.6]
+    speaker = "caldarus"
+    portrait = "embarrassed"
+    local = "When I say these sentences out loud, it feels like it was a strange way to behave."
+    next = "7"
+
+[breaking_the_ruins_seal_caldarus_turn_in.6r]
+    speaker = "caldarus"
+    portrait = "embarrassed"
+    local = "Do you find it strange that I do this? Is it too much?"
+    prompts = [
+        { local = "No, I think that's normal at the beginning of a relationship. I hope you keep thinking of me like that for a long time.", next = "7ra" },
+        { local = "No, I think that's normal at the beginning of a relationship. Your thoughts will find a balance over time.", next = "7rb" }
+    ]
+
+[breaking_the_ruins_seal_caldarus_turn_in.6f]
+    speaker = "caldarus"
+    portrait = "serious"
+    local = "But maybe it is too much."
+    next = "7f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.7]
+    no_speaker = true
+    local = "I don't think so. You were a statue for centuries, I think it's natural that you'd want to relearn everything."
+    next = "8"
+
+[breaking_the_ruins_seal_caldarus_turn_in.7ra]
+    speaker = "caldarus"
+    portrait = "embarrassed"
+    local = "I will"
+    next = "8r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.7rb]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "So that's how it works?"
+    next = "8r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.7f]
+    no_speaker = true
+    local = "Well, you don't need to go to such lengths for our friendship, but I really appreciate you paying attention to it."
+    next = "8f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.8]
+    speaker = "caldarus"
+    portrait= "smile"
+    local = "That reassures me. And now that I am in human form, I feel like I am acting more and more naturally."
+    next = "9"
+
+[breaking_the_ruins_seal_caldarus_turn_in.8r]
+    speaker = "caldarus"
+    portrait = "happy"
+    local = "Thanks for reassuring me, [Ari]"
+    next = "9r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.8f]
+    speaker = "caldarus"
+    portrait = "laugh"
+    local = "And I appreciate you helping me so much to adapt."
+    next = "9f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.9]
+    no_speaker = true
+    local = "That's good news. By the way, how are you feeling?"
+    next = "10"
+
+[breaking_the_ruins_seal_caldarus_turn_in.9r]
+    no_speaker = true
+    local = "(I slip my hand into his, smiling.) How are you feeling?"
+    next = "10r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.9f]
+    no_speaker = true
+    local = "Speaking of which, how are you feeling?"
+    next = "10f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.10]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "I have moments when I feel tired, but overall, I'm doing well."
+    next = "11"
+
+[breaking_the_ruins_seal_caldarus_turn_in.10r]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "I have moments when I feel tired, but overall, I'm doing well."
+    next = "11r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.10f]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "I have moments when I feel tired, but overall, I'm doing well."
+    next = "11f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.11]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "Even though there were a few rare moments when I felt a sense of tension within me. It is rather unpleasant."
+    next = "12"
+
+[breaking_the_ruins_seal_caldarus_turn_in.11r]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "Even though there were a few rare moments when I felt a sense of tension within me. It is rather unpleasant."
+    next = "12r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.11f]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "Even though there were a few rare moments when I felt a sense of tension within me. It is rather unpleasant."
+    next = "12f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.12]
+    no_speaker = true
+    local = "(Caldarus's eyes seem to be elsewhere at that moment.) Do you think of anything in particular when that happens?"
+    next = "13"
+
+[breaking_the_ruins_seal_caldarus_turn_in.12r]
+    no_speaker = true
+    local = "(Caldarus's eyes seem to be elsewhere at that moment, but his hand squeezes mine tighter. I gently place my other hand on his cheek.) Do you think of anything in particular when that happens?"
+    next = "13r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.12f]
+    no_speaker = true
+    local = "(Caldarus's eyes seem to be elsewhere at that moment. I place my hand on his shoulder) Do you think of anything in particular when that happens?"
+    next = "13f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.13]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "I..."
+    next = "14"
+
+[breaking_the_ruins_seal_caldarus_turn_in.13r]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "I..."
+    next = "14r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.13f]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "I..."
+    next = "14f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.14]
+    speaker = "caldarus"
+    portrait = "serious"
+    local = "It is usually when I think back to what happened in the mines, when I sensed you were in danger."
+    next = "15"
+
+[breaking_the_ruins_seal_caldarus_turn_in.14r]
+    speaker = "caldarus"
+    portrait = "serious"
+    local = "It is usually when I think back to what happened in the mines, when I sensed you were in danger."
+    next = "15r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.14f]
+    speaker = "caldarus"
+    portrait = "serious"
+    local = "It is usually when I think back to what happened in the mines, when I sensed you were in danger."
+    next = "15f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.15]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "I do not know how to explain it. I feel a mix of foreboding and helplessness."
+    next = "16"
+
+[breaking_the_ruins_seal_caldarus_turn_in.15r]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "I do not know how to explain it. I feel a mix of foreboding and helplessness."
+    next = "16r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.15f]
+    speaker = "caldarus"
+    portrait = "think"
+    local = "I do not know how to explain it. I feel a mix of foreboding and helplessness."
+    next = "16f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.16]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "Then there is that other part of me that remembers your strength. It helps me feel better"
+    next = "17"
+
+[breaking_the_ruins_seal_caldarus_turn_in.16r]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "Then there is that other part of me that remembers your strength. It helps me feel better"
+    next = "17r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.16f]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "Then there is that other part of me that remembers your strength. It helps me feel better"
+    next = "17f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.17]
+    no_speaker = true
+    local = "(I don't know what to think. Maybe it's his intuition speaking or maybe it's the anxiety he felt when I was in danger resurfacing.)"
+    next = "18"
+
+[breaking_the_ruins_seal_caldarus_turn_in.17r]
+    no_speaker = true
+    local = "(I don't know what to think. Maybe it's his intuition speaking, or maybe it's the anxiety he felt when I was in danger resurfacing.)"
+    next = "18r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.17f]
+    no_speaker = true
+    local = "(I don't know what to think. Maybe it's his intuition speaking, or maybe it's the anxiety he felt when I was in danger resurfacing.)"
+    next = "18f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.18]
+    no_speaker = true
+    local = "Does the thought of me going down into the mines make you feel that kind of thing?"
+    next = "19"
+
+[breaking_the_ruins_seal_caldarus_turn_in.18r]
+    no_speaker = true
+    local = "(Even though he smiles at me, his hand grips mine more tightly, and I can read the underlying distress in his eyes.) Does the thought of me going down into the mines make you feel that kinf of thing?"
+    next = "19r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.18f]
+    no_speaker = true
+    local = "(He is smiling at me, but I can feel the tension in his shoulder.) Does the thought of me going down into the mines make you feel that kinf of thing?"
+    next = "19f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.19]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "Not really. I deeply respect your efforts. And I just hope you are getting enough rest."
+    next = "20"
+
+[breaking_the_ruins_seal_caldarus_turn_in.19r]
+    speaker = "caldarus"
+    portrait = "embarrassed"
+    local = " Yes, it does. But fear not, it has not reached the point where I would want you to stop. I know your strength better than anyone."
+    next = "20r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.19f]
+    speaker = "caldarus"
+    portrait = "embarrassed"
+    local = " It depends on the day. But I know your strength better than anyone."
+    next = "20f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.20]
+    no_speaker = true
+    local = "(The $priestess$ told me not to say anything to Caldarus about the seals.)"
+    next = "21"
+
+[breaking_the_ruins_seal_caldarus_turn_in.20r]
+    no_speaker = true
+    local = "(The $priestess$ told me not to say anything to Caldarus about the seals.)"
+    next = "21r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.20f]
+    no_speaker = true
+    local = "(The $priestess$ told me not to say anything to Caldarus about the seals.)"
+    next = "21f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.21]
+    no_speaker = true
+    local = "(On one hand, even though his human form has weakened him, he might sense if I'm in danger again and still try to intervene.)"
+    next = "22"
+
+[breaking_the_ruins_seal_caldarus_turn_in.21r]
+    no_speaker = true
+    local = "(On one hand, even though his human form has weakened him, he might sense if I'm in danger again and still try to intervene.)"
+    next = "22r"
+
+[breaking_the_ruins_seal_caldarus_turn_in.21f]
+    no_speaker = true
+    local = "(On one hand, even though his human form has weakened him, he might sense if I'm in danger again and still try to intervene.)"
+    next = "22f"
+
+[breaking_the_ruins_seal_caldarus_turn_in.22]
+    no_speaker = true
+    local = "(On the other hand, he seems quite calm when I talk about the mines, surely because he trusts in my abilities and my caution.)"
+    prompts = [
+        { local = "(I prefer to be cautious. I really don't want to worry him. I'm going to follow the $priestess$'s advice and say nothing.)", next = "23a" },
+        { local = "(I think Caldarus can understand the situation and will trust me. I prefer to tell him.)", next = "23b" }
+    ]
+
+[breaking_the_ruins_seal_caldarus_turn_in.22r]
+    no_speaker = true
+    local = "(On the other hand, even though he is worried about the mines, I know he trusts in my abilities and my caution.)"
+    prompts = [
+        { local = "(I prefer to be cautious. I really don't want to worry him. I'm going to follow the $priestess$'s advice and say nothing.)", next = "23ra" },
+        { local = "(I think Caldarus can understand the situation and will trust me. And I refuse to hide anything from him. I prefer to tell him.)", next = "23rb" }
+    ]
+
+[breaking_the_ruins_seal_caldarus_turn_in.22f]
+    no_speaker = true
+    local = "(On the other hand, he seems quite calm when I talk about the mines, surely because he trusts in my abilities and my caution.)"
+    prompts = [
+        { local = "(I prefer to be cautious. I really don't want to worry him. I'm going to follow the $priestess$'s advice and say nothing.)", next = "23fa" },
+        { local = "(I think Caldarus can understand the situation and will trust me. I prefer to tell him, I owe him that.)", next = "23fb" }
+    ]
+
+[breaking_the_ruins_seal_caldarus_turn_in.23a]
+    no_speaker = true
+    local = "Don't worry, I usually sleep like a baby after a trip down into the mines. You need the rest more than I do."
+    next = "24a"
+
+[breaking_the_ruins_seal_caldarus_turn_in.23b]
+    no_speaker = true
+    local = "Speaking of the mines, I saw the $priestess$. She quickly realized that you had taken human form. She hadn't expected things to turn out this way."
+    next = "24b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.23ra]
+    no_speaker = true
+    local = "You've always believed in me. Thank you, that means a lot."
+    next = "24ra"
+
+[breaking_the_ruins_seal_caldarus_turn_in.23rb]
+    no_speaker = true
+    local = "I want you to know that I saw the $priestess$ again. She knows that you have taken human form. She hadn't expected things to turn out this way."
+    next = "24rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.23fa]
+    no_speaker = true
+    local = "Thank you for trusting me, that means a lot."
+    next = "24fa"
+
+[breaking_the_ruins_seal_caldarus_turn_in.23fb]
+    no_speaker = true
+    local = "I want you to know that I saw the $priestess$ again. She knows that you have taken human form. She hadn't expected things to turn out this way."
+    next = "24fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.24a]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "I'm glad to hear that. And do not worry, I am paying attention to my sleep."
+    next = "25a"
+
+[breaking_the_ruins_seal_caldarus_turn_in.24b]
+    speaker = "caldarus"
+    portrait = "serious"
+    local = "I sincerely hope she does not feel guilty."
+    next = "25b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.24ra]
+    speaker = "caldarus"
+    portrait = "embarrassed"
+    local = "It is up to me to thank you, [Ari]. Despite my current situation, I feel extremely lucky to have you here with me."
+    next = "25ra"
+
+[breaking_the_ruins_seal_caldarus_turn_in.24rb]
+    speaker = "caldarus"
+    portrait = "serious"
+    local = "I sincerely hope she does not feel guilty."
+    next = "25rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.24fa]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "You are welcome, [Ari]. Trust is for me an important foundation of our friendship."
+    next = "25fa"
+
+[breaking_the_ruins_seal_caldarus_turn_in.24fb]
+    speaker = "caldarus"
+    portrait = "serious"
+    local = "I sincerely hope she does not feel guilty."
+    next = "25fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.25a]
+    speaker = "caldarus"
+    portrait = "smile"
+    local = "Thank you, [Ari], for taking the time to come and see me."
+    next = "26a"
+
+[breaking_the_ruins_seal_caldarus_turn_in.25b]
+    no_speaker = true
+    local = "She is worried about you. There is still two $seals$ to break, and she fears you are overestimating your strength."
+    next = "26b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.25ra]
+    no_speaker = true
+    local = "(I hope this whole thing will soon be behind us and that he can regain his strength.)"
+    next = "26ra"
+
+[breaking_the_ruins_seal_caldarus_turn_in.25rb]
+    no_speaker = true
+    local = "She is worried about you. There is still two $seals$ to break, and she fears you are overestimating your strength."
+    next = "26rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.25fa]
+    no_speaker = true
+    local = "(I hope this whole thing will soon be behind us and that he can regain his strength.)"
+
+[breaking_the_ruins_seal_caldarus_turn_in.25fb]
+    no_speaker = true
+    local = "She is worried about you. There is still two $seals$ to break, and she fears you are overestimating your strength."
+    next = "26fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.26a]
+    no_speaker = true
+    local = "(I hope this whole thing will soon be behind us and that he can regain his strength.)"
+
+[breaking_the_ruins_seal_caldarus_turn_in.26b]
+    speaker = "caldarus"
+    portrait = "avoidant"
+    local = "I... I understand. I really wish I could do something."
+    next = "27b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.26ra]
+    no_speaker = true
+    local = "(I want to see the look on his face when he can go beyond this place, when he can meet the rest of the town. I feel like it will make him more fulfilled.)"
+
+[breaking_the_ruins_seal_caldarus_turn_in.26rb]
+    speaker = "caldarus"
+    portrait = "avoidant"
+    local = "I... I understand. I am sorry that she and you are worried about me. I wish so much that I could support you more in this quest."
+    next = "27rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.26fb]
+    speaker = "caldarus"
+    portrait = "avoidant"
+    local = "I... I understand. I am sorry that she and you are worried about me. I wish so much that I could support you more in this quest."
+    next = "27fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.27b]
+    no_speaker = true
+    local = "We would actually like you do nothing. You've done more than necessary, we don't want you to weaken yourself further."
+    next = "28b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.27rb]
+    no_speaker = true
+    local = "You don't need to do anything more, Cal. You saved my life. I don't want you to weaken yourself further"
+    next = "28rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.27fb]
+    no_speaker = true
+    local = "You don't need to do anything more, Cal. You saved my life. We don't want you to weaken yourself further"
+    next = "28fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.28b]
+    no_speaker = true
+    local = "The $priestess$ and I agree that we need to be careful from now on, so that what happened doesn't happen again."
+    next = "29b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.28rb]
+    no_speaker = true
+    local = "The $priestess$ and I agree that we need to be careful from now on, so that what happened doesn't happen again."
+    next = "29rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.28fb]
+    no_speaker = true
+    local = "The $priestess$ and I agree that we need to be careful from now on, so that what happened doesn't happen again."
+    next = "29fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.29b]
+    speaker = "caldarus"
+    portrait = "sigh"
+    local = "..."
+    next = "30b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.29rb]
+    no_speaker = true
+    local = "(I know Cal is feeling conflicting emotions right now. But he ends up smiling at me and leans down to kiss my forehead, easing some of my tension.)"
+    next = "30rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.29fb]
+    no_speaker = true
+    local = "(I know Cal is feeling conflicting emotions right now. But he ends up smiling at me, easing some of my tension.)"
+    next = "30fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.30b]
+    speaker = "caldarus"
+    portrait = "avoidant"
+    local = "I know that things can not be left as they are, neither for me nor for the $priestess$."
+    next = "31b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.30rb]
+    speaker = "caldarus"
+    portrait = "avoidant"
+    local = "I know that things can not be left as they are, neither for me nor for the $priestess$."
+    next = "31rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.30fb]
+    speaker = "caldarus"
+    portrait = "avoidant"
+    local = "I know that things can not be left as they are, neither for me nor for the $priestess$."
+    next = "31fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.31b]
+    speaker = "caldarus"
+    portrait = "sad"
+    local = " [Ari], please be careful."
+    next = "32b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.31rb]
+    speaker = "caldarus"
+    portrait = "sad"
+    local = "I know I am repeating myself, but I am really lucky to have you. But please, [Ari], promise me you will be careful."
+    next = "32rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.31fb]
+    speaker = "caldarus"
+    portrait = "sad"
+    local = "But please, [Ari], promise me you will be careful."
+    next = "32fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.32b]
+    no_speaker = true
+    local = "Of course, Caldarus, I will. I promise."
+    next = "33b"
+
+[breaking_the_ruins_seal_caldarus_turn_in.32rb]
+    no_speaker = true
+    local = "Of course, Cal, I will. I promise."
+    next = "33rb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.32fb]
+    no_speaker = true
+    local = "Of course, Cal, I will. I promise."
+    next = "33fb"
+
+[breaking_the_ruins_seal_caldarus_turn_in.33b]
+    no_speaker = true
+    local = "(I hope this whole thing will soon be behind us. Caldarus needs to regain his strength.)"
+
+[breaking_the_ruins_seal_caldarus_turn_in.33rb]
+    no_speaker = true
+    local = "(I hope this whole thing will soon be behind us. I want to see him regain his full strength. It saddens me to see him diminished.)"
+
+[breaking_the_ruins_seal_caldarus_turn_in.33fb]
+    no_speaker = true
+    local = "(I hope this whole thing will soon be behind us. Caldarus needs to regain his strength.)"

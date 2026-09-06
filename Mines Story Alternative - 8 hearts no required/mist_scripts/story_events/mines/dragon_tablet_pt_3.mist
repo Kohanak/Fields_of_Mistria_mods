@@ -1,0 +1,1098 @@
+scene(bathhouse_bedroom);
+place_actor(juniper, north, dt3_bathhouse_entrance);
+camera_position(dt3_camera_1);
+request_music_play("Music/Events/DragonCutscene");
+
+sim {
+	{
+		wait(0.25);
+		fade_in(2);
+	}
+	{
+		pan_camera(3, dt3_camera_2);
+	}
+	{
+		walk(juniper, dt3_juniper_start);
+		face(juniper, east);
+	}
+	{
+		wait(0.5);
+		place_actor(ari, north, dt3_bathhouse_entrance);
+		walk_slow(ari, dt3_ari_start);
+		face(ari, west);
+	}
+}
+next_line(); //"Alright, [Ari]. Here we are."
+next_line(); //"Now spill it."
+close_textbox();
+wait(0.5);
+free bark_speech(ari, sweat_drop);
+wait(1.5);
+free bark_speech(ari, ellipses);
+wait(2);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, mining);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, priestess);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(juniper, exclamation_mark);
+wait(1);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, fire);
+wait(1);
+sim {
+	{
+		fade_out(2);
+	}
+	{
+		set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+		free bark_speech(ari, mist);
+		wait(1);
+		set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+		free bark_speech(ari, plant_tonic);
+		wait(1);
+		free bark_speech(ari, priestess);
+	}
+}
+
+wait(1.5);
+place_actor(juniper, south, dt3_juniper_start);
+sim {
+	{
+		wait(0.3);
+		fade_in(2);
+	}
+	{
+		walk_slow(juniper, dt3_juniper_pace_south);
+		face(juniper, south);
+		wait(1);
+		walk_slow(juniper, dt3_juniper_pace_north);
+		face(juniper, north);
+		wait(1);
+		free bark_speech(juniper, ellipses);
+		wait(2);
+		walk_slow(juniper, dt3_juniper_start);
+		face(juniper, south);
+		wait(1);
+		face(juniper, east);
+	}
+}
+next_line(); //"You've been talking to some kind of ghost?"
+next_line(); //"The spirit of a $Dragon Priestess$... standing guard at $The Gate Between Worlds$?"
+sim {
+	{
+		wait(1);
+		face(juniper, west);
+	}
+	{
+		next_line(); //"The place from which $all Magic originates$?"
+		close_textbox();
+	}
+	{
+		pan_camera(2, dt3_camera_cauldron);
+	}
+}
+wait(1);
+free bark_speech(juniper, ellipses);
+wait(2);
+sim {
+	{
+		wait(0.5);
+		face(juniper, east);
+	}
+	{
+		next_line(); //"And you want my help again to break this $Final Seal$!?"
+	}
+	{
+		pan_camera(0.5, dt3_camera_2);
+	}
+}
+close_textbox();
+wait(1.5);
+sim {
+	{
+		face(juniper, south);
+		animate(juniper, laugh);
+	}
+	{
+		next_line(); //"OH HO HO HO HO!"
+		next_line(); //"..."
+	}
+}
+close_textbox();
+wait(0.5);
+animate(juniper, idle);
+face(juniper, south);
+wait(0.5);
+face(juniper, west);
+wait(0.5);
+next_line(); //"AHEM!"
+sim {
+	{
+		wait(0.25);
+		face(juniper, east);
+	}
+	{
+		next_line(); //"I would LOVE to, [Ari]."
+	}
+	{
+		pan_camera(0.5, dt3_camera_bump);
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(ari, blush);
+wait(1);
+free bark_speech(juniper, cute_face);
+wait(1.5);
+sim {
+	{
+		wait(0.5);
+		face(juniper, west);
+	}
+	{
+		next_line(); //"Now let's see, where do we start..."
+	}
+	{
+		pan_camera(1.5, dt3_camera_2);
+	}
+}
+
+//
+close_textbox();
+sim {
+	{
+		wait(0.5);
+		free bark_speech(juniper, exclamation_mark);
+		wait(1);
+	}
+	{
+		wait(1);
+		face(juniper, east);
+	}
+}
+next_line(); //"Eiland, huh?"
+next_line(); //"Well, I guess that makes sense. He seems to know a lot about the last $Dragonsworn$."
+next_line(); //"More than either of us, anyway."
+close_textbox();
+free pan_camera(1.5, dt3_camera_cauldron);
+wait(0.5);
+face(juniper, west);
+wait(0.5);
+free bark_speech(juniper, ellipses);
+wait(2);
+sim {
+	{
+		wait(0.5);
+		face(juniper, east);
+	}
+	{
+		next_line(); //"I suppose we should go get Eiland, then."
+		next_line(); //"I'm not sure how much he can help, but..."
+		next_line(); //"I really want to see his face when you reveal what's been going on."
+	}
+	{
+		pan_camera(1.5, dt3_camera_2);
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(ari, sweat_drop);
+wait(1);
+free bark_speech(juniper, cute_face);
+wait(1.5);
+sim {
+	{
+		walk(juniper, dt3_bathhouse_entrance);
+		face(juniper, south);
+		remove_actor(juniper);
+	}
+	{
+		wait(0.5);
+		walk_slow(ari, dt3_bathhouse_entrance);
+		face(ari, south);
+	}
+	{
+		pan_camera(3, dt3_camera_3);
+	}
+	{
+		wait(0.5);
+		fade_out(2);
+	}
+}
+
+scene(eilands_office);
+place_actor(ari, east, dt3_ari_eo_entrance);
+place_actor(eiland, west, dt3_eiland_sit);
+animate(eiland, sit);
+var eiland_x = __get_element_x(dt3_eiland_sit);
+var eiland_y = __get_element_y(dt3_eiland_sit);
+place_actor(juniper, east, dt3_juniper_eo_entrance);
+camera_position(dt3_camera_4);
+sim {
+	{
+		wait(0.25);
+		fade_in(2);
+	}
+	{
+		wait(2);
+		free bark_speech(eiland, exclamation_mark);
+		wait(0.5);
+		//
+		face(eiland, north);
+		wait(0.25);
+		place_actor(eiland, north, dt3_eiland_desk_stand);
+		animate(eiland, idle);
+		wait(0.25);
+		face(eiland, west);
+	}
+	{
+		pan_camera(3, dt3_camera_5);
+	}
+	{
+		walk(juniper, dt3_juniper_eo_start);
+		face(juniper, east);
+	}
+	{
+		walk_slow(ari, dt3_ari_eo_start);
+		face(ari, east);
+	}
+	{
+		wait(3);
+		next_line(); //"[Ari], Juniper!"
+		next_line(); //"To what do I owe the pleasure...?"
+		next_line(); //"Get ready, Eiland."
+		next_line(); //"We're about to turn your world upside down."
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(eiland, exclamation_mark);
+wait(1);
+face(ari, north);
+wait(0.5);
+free bark_speech(ari, sweat_drop);
+wait(2);
+free bark_speech(eiland, sweat_drop);
+wait(0.5);
+face(ari, east);
+wait(0.5);
+next_line(); //"U-um. [Ari]?"
+next_line(); //"Should I be scared?"
+close_textbox();
+wait(1);
+free bark_speech(ari, ellipses);
+wait(1);
+sim {
+	{
+		walk_slow(juniper, dt3_juniper_eo_forward);
+		face(juniper, east);
+	}
+	{
+		pan_camera(2, dt3_camera_6);
+	}
+	{
+		next_line(); //"Eiland, Eiland, Eiland..."
+		next_line(); //"You might want to sit back down for this."
+	}
+}
+close_textbox();
+wait(1);
+face(eiland, north);
+wait(0.25);
+place_actor(eiland, north, dt3_eiland_sit);
+animate(eiland, sit);
+wait(0.25);
+face(eiland, west);
+wait(0.5);
+free bark_speech(eiland, sweat_drop);
+wait(1.5);
+sim {
+	{
+		wait(0.5);
+		face(juniper, west);
+	}
+	{
+		next_line(); //"Go ahead, [Ari]. Tell him everything that you told me."
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(ari, ellipses);
+wait(2.5);
+sim {
+	{
+		walk_slow(ari, dt3_ari_eo_forward);
+		face(ari, east);
+	}
+	{
+		pan_camera(4.5, dt3_camera_7);
+	}
+	{
+		wait(1);
+		set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+		free bark_speech(ari, mining);
+		wait(1);
+		set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+		free bark_speech(ari, fire);
+		wait(1);
+		set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+		free bark_speech(ari, caldarus);
+		wait(1);
+		free bark_speech(ari, forest);
+		wait(0.25);
+		free bark_speech(ari, caldarus);
+	}
+	{
+		wait(0.5);
+		face(juniper, south);
+	}
+	{
+		wait(3);
+		fade_out(1);
+	}
+}
+wait(1.25);
+camera_position(dt3_camera_eiland_think);
+face(juniper, east);
+sim {
+	{
+		fade_in(2);
+	}
+	{
+		wait(1);
+		free bark_speech(eiland, ellipses);
+	}
+}
+wait(2);
+next_line(); //"Is it all true?"
+next_line(); //"Really, honestly true?"
+close_textbox();
+wait(1);
+sim {
+	{
+		wait(0.25);
+		//
+		face(eiland, north);
+		wait(0.1);
+		place_actor(eiland, north, dt3_eiland_desk_stand);
+		animate(eiland, idle);
+		wait(0.1);
+		face(eiland, west);
+	}
+	{
+		next_line(); //"I can't believe it!"
+	}
+	{
+		pan_camera(0.5, dt3_camera_7);
+
+	}
+}
+close_textbox();
+wait(0.25);
+sim {
+	{
+		//
+		//
+		//
+		sim {
+			walk(eiland, dt3_eiland_start);
+			set_move_speed(eiland, 1.2);
+		}
+		face(eiland, west);
+	}
+	{
+		wait(0.75);
+		free bark_speech(ari, exclamation_mark);
+		free bark_speech(juniper, exclamation_mark);
+	}
+	{
+		wait(1);
+		face(ari, north);
+		wait(1.25);
+		face(ari, east);
+		place_actor(ari, east, dt3_ari_eo_hop);
+	}
+	{
+		wait(1.25);
+		face(juniper, north);
+		wait(0.75);
+		face(juniper, east);
+		place_actor(juniper, east, dt3_juniper_eo_hop);
+	}
+	{
+		pan_camera(1.5, dt3_camera_6);
+	}
+}
+next_line(); //"The dragon $Caldarus$, the $Seals$ underground..."
+next_line(); //"Please, continue!"
+close_textbox();
+wait(0.5);
+free bark_speech(eiland, cute_face);
+wait(0.5);
+free bark_speech(ari, cute_face);
+wait(2);
+set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+free bark_speech(ari, mining);
+wait(1);
+sim {
+	{
+		set_on_blackboard("next_bark_sfx", "SoundEffects/Barks/BubbleNeutral");
+		free bark_speech(ari, priestess);
+		wait(1);
+		free bark_speech(ari, fire);
+	}
+	{
+		fade_out(1);
+	}
+}
+
+wait(2);
+place_actor(ari, north, dt3_ari_eo_chat);
+place_actor(eiland, north, dt3_eiland_chat);
+place_actor(juniper, north, dt3_juniper_eo_chat);
+camera_position(dt3_camera_8);
+
+fade_in(2);
+wait(1);
+free bark_speech(eiland, ellipses);
+wait(3);
+face(ari, east);
+wait(0.5);
+face(juniper, west);
+wait(0.5);
+free bark_speech(ari, ellipses);
+free bark_speech(juniper, ellipses);
+wait(2);
+face(ari, north);
+wait(0.5);
+face(juniper, north);
+wait(0.5);
+next_line(); //"W-wow."
+sim {
+	{
+		wait(2);
+		face(eiland, south);
+	}
+	{
+		next_line(); //"All of this... it changes everything!"
+	}
+	{
+		wait(2);
+		pan_camera(0.5, dt3_camera_9);
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(ari, cute_face);
+wait(1);
+free bark_speech(eiland, cute_face);
+wait(1);
+sim {
+	//
+	//
+	//
+	{
+		wait(0.5);
+		next_line(); //"It's a lot to take in."
+	}
+	{
+		pan_camera(1, dt3_camera_8);
+	}
+}
+
+close_textbox();
+wait(0.5);
+face(eiland, north);
+wait(1);
+free bark_speech(eiland, ellipses);
+wait(2);
+sim {
+	{
+		face(eiland, south);
+		wait(0.5);
+		walk(eiland, dt3_eiland_pace_right);
+		face(eiland, east);
+		wait(1);
+		walk(eiland, dt3_eiland_chat);
+		face(eiland, west);
+		walk(eiland, dt3_eiland_pace_left);
+		face(eiland, west);
+		wait(0.5);
+	}
+	{
+		wait(2);
+		next_line(); //"I don't know that I've ever been this excited-"
+	}
+}
+sim {
+	{
+		wait(0.5);
+		walk(eiland, dt3_eiland_chat);
+		face(eiland, east);
+	}
+	{
+		next_line(); //"About the past... or about the future!"
+	}
+}
+sim {
+	{
+		wait(0.5);
+		face(eiland, south);
+	}
+	{
+		next_line(); //"Thank you for entrusting me with your secret, [Ari]."
+		next_line(); //"I promise that I will help you however I can!"
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(ari, cute_face);
+wait(1);
+free bark_speech(eiland, cute_face);
+wait(1.5);
+free bark_speech(juniper, annoyed);
+wait(1.5);
+sim {
+	{
+		wait(0.5);
+		face(ari, east);
+	}
+	{
+		next_line(); //"Yes, yes. How very touching."
+	}
+}
+sim {
+	{
+		wait(1.25);
+		face(ari, north);
+	}
+	{
+		next_line(); //"Now pick your jaw up off the floor so we can start brainstorming on how to crack that $Tablet$!"
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(eiland, sweat_drop);
+wait(1.5);
+next_line(); //"Right..."
+close_textbox();
+wait(0.5);
+sim {
+	{
+		face(eiland, east);
+		wait(1);
+		walk_slow(eiland, dt3_eiland_chat);
+		face(eiland, east);
+		walk_slow(eiland, dt3_eiland_pace_right_short);
+		face(eiland, east);
+	}
+	{
+		wait(0.5);
+		next_line(); //"Hm. So the $Tablet$ has a blank engraving plate..."
+	}
+}
+sim {
+	{
+		wait(0.5);
+		face(ari, east);
+	}
+	{
+		wait(1);
+		face(juniper, west);
+	}
+	{
+		wait(1.25);
+		face(eiland, south);
+	}
+	{
+		next_line(); //"But you could sense there were words hidden there, [Ari]?"
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(ari, cute_face);
+wait(1);
+free bark_speech(juniper, ellipses);
+wait(0.5);
+face(juniper, east);
+wait(1.5);
+next_line(); //"It sounds to me like a form of $Magic$ encryption."
+sim {
+	{
+		wait(0.5);
+		face(juniper, north);
+	}
+	{
+		next_line(); //"These types of spells are incredibly rare and powerful."
+	}
+}
+sim {
+	{
+		wait(0.5);
+		face(juniper, west);
+	}
+	{
+		next_line(); //"The fact that you can sense words there at all is actually a great sign!"
+		next_line(); //"It means you must meet part of the requirements to read it already."
+		next_line(); //"But what would the requirements be to read this so-called $Dragonsworn Tablet$?"
+	}
+}
+close_textbox();
+sim {
+	{
+		pan_camera(0.5, dt3_camera_eo_bump);
+	}
+	{
+		wait(0.5);
+		next_line(); //"""Did you say $"Dragonsworn" Tablet$?"""
+	}
+	{
+		wait(1);
+		face(ari, north);
+	}
+	{
+		wait(1);
+		face(juniper, north);
+	}
+}
+sim {
+	{
+		wait(0.5);
+		face(eiland, north);
+	}
+	{
+		next_line(); //"The $Dragonsworn$-"
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(eiland, exclamation_mark);
+wait(1);
+next_line(); //"That's it!"
+close_textbox();
+wait(0.5);
+free bark_speech(ari, question_mark);
+wait(1);
+face(eiland, west);
+wait(0.5);
+next_line(); //"[Ari]..."
+sim {
+	{
+		pan_camera(1.5, dt3_camera_8);
+	}
+	{
+		sim {
+			walk(eiland, dt3_eiland_chat_forward_1);
+			set_move_speed(eiland, 0.8);
+		}
+		face(eiland, west);
+	}
+	{
+		next_line(); //"You repaired Caldarus' Shrine when you first came to Mistria."
+		next_line(); //"You have been tasked with returning his power with offerings of $Magic Essence$."
+		next_line(); //"In return, he has granted you the ability not only to see that $Magic$, but to wield it, too."
+	}
+}
+sim {
+	{
+		walk_slow(eiland, dt3_eiland_chat_forward_2);
+		face(eiland, west);
+	}
+	{
+		next_line(); //"That makes YOU the $Dragonsworn$ of this age."
+	}
+}
+sim {
+	{
+		wait(0.75);
+		face(eiland, east);
+	}
+	{
+		next_line(); //"And the $Dragonsworn Armor$ is sitting at Mistria's $Museum$ at this very moment!"
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(juniper, exclamation_mark);
+wait(1);
+free bark_speech(eiland, cute_face);
+wait(1.5);
+sim {
+	{
+		wait(0.5);
+		face(eiland, west);
+	}
+	{
+		next_line(); //"I mean, a reproduction."
+		next_line(); //"I asked March to craft one based on all the information I gathered about the Dragonsworn."
+	}
+}
+
+sim {
+	{
+		wait(1);
+		face(eiland, south);
+	}
+	{
+		next_line(); //"I think we should go and get it for you. By all rights, that armor is yours, [Ari]. It may turn out to be the missing piece of the puzzle."
+	}
+}
+
+sim {
+	{
+		wait(1);
+		face(ari, east);
+	}
+	{
+		next_line(); //"Eiland... That's not a bad theory."
+		next_line(); //"I'm actually pretty impressed!"
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(eiland, cute_face);
+wait(0.5);
+face(ari, north);
+wait(0.5);
+free bark_speech(ari, ellipses);
+free bark_speech(juniper, cute_face);
+wait(1.5);
+sim {
+	{
+		walk_slow(ari, dt3_ari_eo_entrance);
+		face(ari, west);
+	}
+	{
+		wait(0.5);
+		walk_slow(eiland, dt3_eiland_exit);
+	}
+	{
+		wait(0.5);
+		walk_slow(juniper, dt3_juniper_eo_exit);
+	}
+	{
+		wait(0.25);
+		fade_out(2);
+	}
+	{
+		pan_camera(3, dt3_camera_4);
+	}
+}
+
+scene(museum_entry);
+place_actor(ari, north, dt3_museum_entrance);
+camera_position(dt3_camera_10);
+
+sim {
+	{
+		wait(0.25);
+		fade_in(2);
+	}
+	{
+		walk_slow(ari, dt3_ari_me_entrance);
+		face(ari, north);
+	}
+	{
+		wait(0.5);
+		place_actor(eiland, north, dt3_museum_entrance);
+		walk_slow(eiland, dt3_eiland_me_entrance);
+		face(eiland, north);
+	}
+	{
+		wait(1);
+		place_actor(juniper, north, dt3_museum_entrance);
+		walk_slow(juniper, dt3_juniper_me_entrance);
+		face(juniper, north);
+	}
+	{
+		pan_camera(3, dt3_camera_11);
+	}
+}
+
+free bark_speech(eiland, cute_face);
+wait(0.5);
+face(ari, south);
+wait(0.5);
+face(juniper, west);
+wait(0.5);
+next_line(); //"Good, it looks like we're alone."
+sim {
+	{
+		wait(0.5);
+		face(eiland, east);
+	}
+	{
+		next_line(); //"That saves us the trouble of needing to explain ourselves to Errol."
+		next_line(); //"Just a moment, I'll go and get the $Dragonsworn Armor$."
+	}
+}
+close_textbox();
+sim {
+	{
+		walk_slow(eiland, dt3_eiland_me_armor);
+		face(eiland, north);
+		animate(eiland, action);
+		wait(0.5);
+		override_requirement("has_dragonsworn_armor");
+		animate(eiland, idle);
+	}
+	{
+		pan_camera(3, dt3_camera_12);
+	}
+	{
+		wait(1);
+		face(ari, west);
+		wait(1);
+		face(ari, north);
+	}
+	{
+		wait(1);
+		face(juniper, north);
+	}
+}
+sim {
+	{
+		face(eiland, east);
+		wait(2);
+		walk_slow(eiland, dt3_eiland_me_give_north);
+		face(eiland, east);
+		animate(eiland, action);
+		wait(0.1);
+		animate(ari, action);
+		wait(0.4);
+		animate(eiland, idle);
+		wait(0.1);
+		animate(ari, idle);
+		ari_hold_item(dragonsworn_armor_equipment, 1, false);
+		animate(ari, idle);
+	}
+	{
+		walk(juniper, dt3_juniper_me_north);
+		face(juniper, north);
+	}
+	{
+		wait(0.5);
+		walk(ari, dt3_ari_me_north);
+		face(ari, west);
+	}
+	//
+	//
+	//
+	//
+	{
+		pan_camera(3, dt3_camera_13);
+	}
+}
+next_line(); //"There we are."
+close_textbox();
+wait(0.5);
+sim {
+	{
+		pan_camera(2, dt3_camera_14);
+	}
+	{
+		wait(0.5);
+		face(ari, south);
+	}
+	{
+		walk_slow(eiland, dt3_eiland_me_north);
+		face(eiland, north);
+	}
+}
+checkpoint("here");
+next_line(); //"Go on, [Ari]! Try it on!"
+close_textbox();
+wait(0.5);
+sim {
+	{
+		wait(1);
+		face(ari, north);
+		wait(1);
+		free bark_speech(ari, ellipses);
+		wait(1);
+		animate(ari, action);
+		wait(0.5);
+		animate(ari, idle);
+		animate(ari, action);
+		wait(0.5);
+		animate(ari, idle);
+		face(ari, south);
+		wait(1);
+		ari_hold_item(dragonsworn_armor_equipment, 1, false);
+		sim {
+			create_animation(spr_fx_poof1_dirt_once, dt3_poof, 0, 0, 0, -500);
+			play_sound("SoundEffects/SpecialEvents/TransitionBack");
+			equip_dragonsworn_armor();
+			animate(ari, idle);
+		}
+		wait(2);
+		create_unique_renderer();
+		set_on_blackboard("command", "make_ari_purple");
+		wait(2);
+		setup_prop(dt3_void_sight);
+		free fade_prop_alpha(dt3_void_sight, 0.0, 1.0, 120);
+		wait(1);
+		free bark_speech(juniper, exclamation_mark);
+		free bark_speech(eiland, exclamation_mark);
+		wait(1.5);
+	}
+	{
+		wait(3);
+		pan_camera(3, dt3_camera_15);
+	}
+}
+next_line(); //"!"
+next_line(); //"!"
+close_textbox();
+wait(0.5);
+sim {
+	{
+		wait(1);
+		pan_camera(2.5, dt3_camera_14);
+	}
+	{
+		play_sound("SoundEffects/NPCs/SeridiaFadeOut");
+		set_on_blackboard("command", "remove_ari_blend");
+	}
+	{
+		free fade_prop_alpha(dt3_void_sight, 1.0, 0.0, 60);
+	}
+}
+next_line(); //"That light...!"
+next_line(); //"What was that?"
+next_line(); //"Um, how do you feel, [Ari]?"
+
+//
+close_textbox();
+sim {
+	{
+		wait(0.5);
+		free bark_speech(eiland, cute_face);
+	}
+	{
+		wait(1.5);
+		next_line(); //"Incredible... It's not even the original"
+	}
+}
+sim {
+	{
+		wait(1);
+		face(eiland, east);
+	}
+	{
+		next_line(); //"Imagine that."
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(eiland, question_mark);
+wait(1);
+face(juniper, west);
+wait(0.5);
+sim {
+	{
+		wait(0.5);
+		face(juniper, west);
+	}
+	{
+		next_line(); //"It would make sense, wouldn't it? Everything is falling into place."
+	}
+}
+
+sim {
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	{
+		next_line(); //"To be honest, I wondered whether using modern armor was a good idea. Using something from the same era might have been a prerequisite."
+		next_line(); //"I see where you're coming from. But intention can matter too, or the mere presence of magic."
+		next_line(); //"Especially since March is an excellent enough craftsman to be touched by magic and able to infuse certain pieces."
+		next_line(); //""Although he refuses to admit it"
+		next_line(); //"Fair enough, but we're lucky the armor fits me perfectly."
+		next_line(); //"Oh, that’s because I asked him to. March asked for details about the silhouette, and I told him to base it on you. You’re the only person here who goes down into the mines and fights monsters."
+		next_line(); //"It's just as I was saying, all the elements are converging."
+		next_line(); //"I bet only the true $Dragonsworn$ can read the $Dragonsworn Tablet$."
+	}
+}
+sim {
+	{
+		wait(0.5);
+		face(juniper, north);
+	}
+	{
+		wait(1);
+		face(eiland, north);
+	}
+	{
+		next_line(); //"And now you have the proof!"
+		close_textbox();
+
+	}
+	{
+		pan_camera(2.5, dt3_camera_hero);
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(juniper, ellipses);
+wait(1.5);
+sim {
+	{
+		wait(0.5);
+		face(juniper, north);
+	}
+	{
+		wait(1);
+		face(eiland, north);
+	}
+	{
+		next_line(); //"You certainly look the part, [Ari]."
+		next_line(); //"But will you really be able to read the $Tablet$ now?"
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(ari, ellipses);
+wait(1.5);
+sim {
+	{
+		wait(0.5);
+		face(eiland, east);
+	}
+	{
+		wait(1);
+		face(juniper, west);
+	}
+	{
+		next_line(); //"I suppose there's only one way to find out."
+	}
+}
+sim {
+	{
+		wait(0.5);
+		face(eiland, north);
+	}
+	{
+		wait(1);
+		face(juniper, north);
+	}
+	{
+		next_line(); //"You'd better go back down into the Ruins and see if you can read the $Dragonsworn Tablet$!"
+	}
+}
+close_textbox();
+wait(0.5);
+free bark_speech(juniper, cute_face);
+free bark_speech(eiland, cute_face);
+wait(1);
+free bark_speech(ari, cute_face);
+wait(1);
+fade_out(2);
